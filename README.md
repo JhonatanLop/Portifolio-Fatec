@@ -48,11 +48,6 @@ Trabalho de Aprendizagem a partir de Projeto Integrador (APIs), apresentado à F
 </details>
 
 <h2 id="sobre-mim"> Sobre mim </h2>
-<div align="center">
-  <img height="260em" alig src="./src/foto.png">
-  <p>Jhonatan Oliveira Lopes</p>
-  <br>  
-</div>
 
 *Sou um desenvolvedor Back-End com foco em Banco de Dados e APIs, atualmente cursando Banco de Dados na FATEC São José dos Campos. Minha trajetória na área começou com minha formação técnica em Informática pela Etec de Jaú, onde tive meu primeiro contato com programação e bancos de dados.
 
@@ -68,8 +63,6 @@ Minha experiência acadêmica tem sido marcada por projetos práticos e colabora
 <h2 id = "o-projeto1"> Ferramenta de avaliação 360º </h2>
 <h4> 1º semestre • 2022 • <a href="https://github.com/JhonatanLop/api1/blob/main/README.md">Repositório Github</a><h4>
 <p>Parceiro Acadêmico: <a href = "https://2rpnet.com.br/">PBLTeX</a></p>
-
-<p align="center"><img src="src/banner.png"></p>
 
 <h3 id = "solucao"> Prévia da solução </h2>
 
@@ -98,8 +91,6 @@ Fui responsável por implementar parte das permissões de acesso, garantindo que
 <h2 id = "o-projeto2"> Ferramenta para controle de Horas Extras e Sobreavisos </h2>
 <h4> 2º semestre • 2022 • <a href="https://github.com/projetoKhali/API2Semestre/blob/main/README.md">Repositório Github</a><h4>
 <p>Parceiro Acadêmico: <a href = "https://2rpnet.com.br/">2RP Net</a></p>
-
-<p align="center"><img src="src/banner.png"></p>
 
 <h3 id = "solucao"> Prévia da solução </h2>
 
@@ -287,8 +278,6 @@ Tive meu primeiro contato com Spring boot e no desenvolvimento de APIs e pude ap
 <h4> 3º semestre • 2022 • <a href="https://github.com/projetoKhali/api3/blob/main/README.md">Repositório Github</a><h4>
 <p>Parceiro Acadêmico: <a href = "https://2rpnet.com.br/">2RP Net</a></p>
 
-<p align="center"><img src="src/banner.png"></p>
-
 <h3 id = "solucao"> Prévia da solução </h2>
 
 <p>O objetivo era fazer um sistema que fizesse o controle da jornada de trabalho do colaborador, ajudar a identificar e classificar as horas extras e sobreavisos.</p>
@@ -438,8 +427,6 @@ Tive meu primeiro contato com Spring boot e no desenvolvimento de APIs e pude ap
 <h2 id = "o-projeto4" align="center"> Dashboard de Parceiros </h2>
 <h4> 4º semestre • 2022 • <a href="https://github.com/projetoKhali/api4/blob/main/README.md">Repositório Github</a><h4>
 <p>Parceiro Acadêmico: <a href = "https://www.oracle.com/partnernetwork/program/">2RP Net</a></p>
-
-<!-- <p align="center"><img src="src/banner.png"></p> -->
 
 <h3 id = "solucao4"> Prévia da solução </h2>
 
@@ -595,8 +582,6 @@ Tive meu primeiro contato com Spring boot e no desenvolvimento de APIs e pude ap
 <h2 id = "o-projeto5" align="center"> Dashboard de Processos Seletivos </h2>
 <h4> 5º semestre • 2022 • <a href="https://github.com/projetoKhali/api5/blob/main/README.md">Repositório Github</a><h4>
 <p>Parceiro Acadêmico: <a href = "https://www.pro4tech.com.br/">PRO4TEC</a></p>
-
-<!-- <p align="center"><img src="src/banner.png"></p> -->
 
 <h3 id = "solucao5"> Prévia da solução </h2>
 
