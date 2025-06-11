@@ -46,6 +46,16 @@ Trabalho de Aprendizagem a partir de Projeto Integrador (APIs), apresentado à F
         <ul><a href="#licoes5"> Lições aprendidas </a></ul>
         <ul><a href="#consideracoes5"> Considerações finais </a></ul>
 </details>
+<details>
+<summary><a href="#o-projeto5"> API 6º Semestre </a></summary>
+        <ul><a href="#arquitetura6"> Arquitetura do projeto </a></ul>
+        <ul><a href="#solucao6"> Sobre o projeto </a></ul>
+        <ul><a href="#tecnologias6"> Tecnologias utilizadas </a></ul>
+        <ul><a href="#contribuicoes6"> Contribuições pessoais </a></ul>
+        <ul><a href="#licoes6"> Lições aprendidas </a></ul>
+        <ul><a href="#consideracoes6"> Considerações finais </a></ul>
+</details>
+
 
 <h2 id="sobre-mim"> Sobre mim </h2>
 
@@ -697,6 +707,115 @@ func TestComputingCardInfo(t *testing.T) {
 	assert.Equal(t, 1, cardInfos.approachingDeadlineProcess)
 	assert.Equal(t, 15, cardInfos.averageHiringTime)
 }
+```
+
+<h2> Lições Aprendidas </h2>
+
+<p> Foi interessante aprender com uma nova linguagem, novas tecnologias e trabalhar com testes unitários e testes de integração. Uma grande novidade para mim nesse projeto foi devops. Nesse quesito fiquei responsável pela organização das documentações do projeto </p>
+<p> Tive a oportunidade de trabalhar novamente como Scrum Master, mas dessa vez com um nível mais avançado de maturidade.  </p>
+<p> Enfrentar dificuldades foi uma parte crucial do processo. Houve momentos em que tivemos que lidar com bugs complexos e desafios de integração, mas isso nos ajudou a crescer como equipe e a melhorar nossas habilidades técnicas. Aprendi a importância de manter a calma e a persistência diante dos obstáculos, e como a colaboração e a comunicação eficaz podem levar a soluções inovadoras. </p>
+
+
+---
+
+<h2 id = "o-projeto6" align="center"> Previsão  </h2>
+<h4> 6º semestre • 2022 • <a href="https://github.com/projetoKhali/api6/blob/main/README.md">Repositório Github</a><h4>
+<p>Parceiro Acadêmico: <a href = "https://www.pro4tech.com.br/">PRO4TEC</a></p>
+
+<h3 id = "solucao6"> Prévia da solução </h2>
+
+<p> Análise e previsão de plantio </p>
+
+<p> Nossa proposta é a criação de uma aplicação web inteligente para monitoramento e gestão de plantios, permitindo que administradores e consultores acompanhem métricas essenciais, realizem análises de produtividade e gerenciem eventos do plantio de forma eficiente. </p>
+
+<p> A plataforma visa integrar dados de diferentes fontes, aplicar inteligência artificial para previsões de produtividade e fornecer insights estratégicos para otimização do cultivo. </p>
+
+
+<h3 id = "tecnologias6">Tecnologias utilizadas</h3>
+
+#### Back-End
+>* [Python](https://www.python.org/).
+>* [Docker](https://www.docker.com/) com [Docker Compose](https://docs.docker.com/compose/).
+>* [PostgreSQL 15](https://www.postgresql.org/).
+>* [MongoDB](https://www.mongodb.com/).
+<br>
+
+#### Front-End
+> * [React](https://react.dev/).
+> * [Typescript](https://www.typescriptlang.org)
+<br>
+
+<h2> Contribuições Pessoais </h2>
+
+<h3> Banco de dados </h3>
+<p> Criação e Documentação do banco de dados</p>
+<p> Fui responsável pela publicação, documentação e esquematização do banco de dados.</p>
+<p> Para isso utilziamos a ferramenta Vertabelo para auxiliar o processo de doucmentação. Na mesma ferramenta fizemos o DER que guiou o desenvolvimento durante o projeto em partes envolvendo banco de dados</p>
+
+<h3> Notificação </h3>
+<p> Fui responsável pela criação o app de notificações, um requisito importante para o projeto que cujo papel é enviar notificação para os usuários do sistema atravéz de alguns filtros</p>
+<p> Este é o arquivo de configuração usado no app de notificação</p>
+
+```yaml
+filters:
+  permission_id: 2                    # opcional: Ex: enviar só para usuários com permissão específica
+  disabled: false                     # opcional: true = desabilitados, false = ativos
+  email_domain: '@gmail.com'          # opcional: filtra domínio do email (ex: só gmail)
+  user_id:                            # opcional: filtra por ID de usuário específico
+  - 1
+  login_conteins: 'a'                 # opcional: filtra todos os logins que contem o valor
+  name_conteins: 'alice'              # opcional: filtra todos os nomes que contem o valor
+
+email:
+  from: 'host@email.com'
+  subject: 'Atualização Importante'
+  body: |
+    Olá {{name}},
+    Temos uma mensagem importante para você.
+    Atenciosamente,
+    Equipe Empresa
+smtp:
+  host: smtp.gmail.com
+  port: 587
+  user: 'host@email.com'
+  password: 'app_password'
+```
+
+<h3> Backup </h3>
+<p> A LGPD foi outro requisito a ser cumprido, com isso vem a responsabilidade de garantir que os dados dos usuários fiquem seguros enquanto estão sob o domínio da empresa e que os mesmos nunca retornem em caso de exclusão do usuário </p>
+<p>  </p>
+
+```python
+
+def create_backup(bkp_file_name="backup_users_permissions_"):
+    # Garante que a pasta local existe
+    os.makedirs(BACKUP_DIR, exist_ok=True)
+
+    file_name = generate_file_name(bkp_file_name)
+    container_path = f"/var/lib/postgresql/data/{file_name}"
+    host_path = os.path.join(BACKUP_DIR, file_name)
+
+    comando = [
+        "docker", "exec",
+        "-e", f"PGPASSWORD={DB_PASSWORD}",
+        DOCKER_CONTAINER,
+        "pg_dump",
+        "-U", DB_USER,
+        "-p", DB_PORT,
+        "-d", DB_NAME,
+        "-F", "c",
+        *sum([["-t", tabela] for tabela in TABELAS], []),
+        "-f", container_path
+    ]
+
+    try:
+        subprocess.run(comando, check=True)
+
+        subprocess.run(["docker", "cp", f"{DOCKER_CONTAINER}:{container_path}", host_path], check=True)
+        subprocess.run(["docker", "exec", DOCKER_CONTAINER, "rm", container_path], check=True)
+
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Erro durante processo de backup: {e}")
 ```
 
 <h2> Lições Aprendidas </h2>
