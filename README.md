@@ -92,9 +92,16 @@ Este foi meu primeiro projeto, portanto, é um trabalho bem amador. Enfrentei di
 Fui responsável por implementar parte das permissões de acesso, garantindo que apenas usuários autorizados pudessem realizar determinadas ações no sistema. Além disso, também fiquei responsável pela parte de alguns módulos para a parte visual dos dashboards.
 
 
-<h2> Lições Aprendidas </h2>
+<h2 id = "licoes1"> Lições Aprendidas </h2>
 
-<p>Como foi minha primeira vez sendo SM e trabalhando com Python foi muito desafiador na hora de descifrar as tarefas e entender realmente oque deveria ser feito e como deveria ser feito. Também sendo a primeira vez em muito tempo desde meu útimo contato com programação tive que reaprender a lógica junto com as particularidades da linguágem</p>
+<p> Como foi minha primeira vez sendo SM e trabalhando com Python foi muito desafiador na hora de descifrar as tarefas e entender realmente oque deveria ser feito e como deveria ser feito. Também sendo a primeira vez em muito tempo desde meu útimo contato com programação tive que reaprender a lógica junto com as particularidades da linguágem </p>
+
+### Hardskills
+- Lógica de programação
+- Metodologia ágil
+
+### Softskills
+- Trabalho em equipe
 
 ---
 
@@ -277,10 +284,16 @@ public class ProjectController {
 
 <h2> Lições Aprendidas </h2>
 
-<p>Como foi minha primeira vez sendo PO e trabalhando com APIs foi muito desafiador na hora de criar as tarefas e entender realmente oque deveria ser feito e como deveria ser feito. O desenvolvimento de APIs pra </p>
-<p>
-Tive meu primeiro contato com Spring boot e no desenvolvimento de APIs e pude aprimorar minhas habilidades de DBA na modelagem do banco de dados inteiro.
-</p>
+<p>Como foi minha primeira vez sendo PO e trabalhando com APIs foi muito desafiador na hora de criar as tarefas e entender realmente oque deveria ser feito e como deveria ser feito.
+Tive meu primeiro contato com Spring boot e no desenvolvimento de APIs e pude aprender sobre os papéis de um DBA e modelagem do banco de dados.</p>
+
+### Hardskills
+- DBA
+- Spring boot
+
+### Softskills
+- Gerenciamento de pessoas
+- Gerenciamento de atividades
 
 ---
 
@@ -427,10 +440,15 @@ public class ProjectController {
 
 <h2> Lições Aprendidas </h2>
 
-<p>Como foi minha primeira vez sendo PO e trabalhando com APIs foi muito desafiador na hora de criar as tarefas e entender realmente oque deveria ser feito e como deveria ser feito. O desenvolvimento de APIs pra </p>
-<p>
-Tive meu primeiro contato com Spring boot e no desenvolvimento de APIs e pude aprimorar minhas habilidades de DBA na modelagem do banco de dados inteiro.
-</p>
+
+
+### Hardskills
+- DBA
+- Spring boot
+
+### Softskills
+- Gerenciamento de pessoas
+- Gerenciamento de atividades
 
 ---
 
