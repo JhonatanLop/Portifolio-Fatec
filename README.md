@@ -2,61 +2,6 @@
 
 Trabalho de Aprendizagem a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos do curso de Banco de Dados 3º Semestre/2022.
 
-<details>
-<summary><a href="#o-projeto1"> API 1º Semestre </a></summary>
-        <ul><a href="#solucao1"> Sobre o projeto </a></ul>
-        <ul><a href="#tecnologias1"> Tecnologias utilizadas </a></ul>
-        <ul><a href="#contribuicoes1"> Contribuições pessoais </a></ul>
-        <ul><a href="#licoes1"> Lições aprendidas </a></ul>
-        <ul><a href="#consideracoes1"> Considerações finais </a></ul>
-</details>
-<details>
-<summary><a href="#o-projeto2"> API 2º Semestre </a></summary>
-        <ul><a href="#arquitetura2"> Arquitetura do projeto </a></ul>
-        <ul><a href="#solucao2"> Sobre o projeto </a></ul>
-        <ul><a href="#tecnologias2"> Tecnologias utilizadas </a></ul>
-        <ul><a href="#contribuicoes2"> Contribuições pessoais </a></ul>
-        <ul><a href="#licoes2"> Lições aprendidas </a></ul>
-        <ul><a href="#consideracoes2"> Considerações finais </a></ul>
-</details>
-<details>
-<summary><a href="#o-projeto3"> API 3º Semestre </a></summary>
-        <ul><a href="#arquitetura3"> Arquitetura do projeto </a></ul>
-        <ul><a href="#solucao3"> Sobre o projeto </a></ul>
-        <ul><a href="#tecnologias3"> Tecnologias utilizadas </a></ul>
-        <ul><a href="#contribuicoes3"> Contribuições pessoais </a></ul>
-        <ul><a href="#licoes3"> Lições aprendidas </a></ul>
-        <ul><a href="#consideracoes3"> Considerações finais </a></ul>
-</details>
-<details>
-<summary><a href="#o-projeto4"> API 4º Semestre </a></summary>
-        <ul><a href="#arquitetura4"> Arquitetura do projeto </a></ul>
-        <ul><a href="#solucao4"> Sobre o projeto </a></ul>
-        <ul><a href="#tecnologias4"> Tecnologias utilizadas </a></ul>
-        <ul><a href="#contribuicoes4"> Contribuições pessoais </a></ul>
-        <ul><a href="#licoes4"> Lições aprendidas </a></ul>
-        <ul><a href="#consideracoes4"> Considerações finais </a></ul>
-</details>
-<details>
-<summary><a href="#o-projeto5"> API 5º Semestre </a></summary>
-        <ul><a href="#arquitetura5"> Arquitetura do projeto </a></ul>
-        <ul><a href="#solucao5"> Sobre o projeto </a></ul>
-        <ul><a href="#tecnologias5"> Tecnologias utilizadas </a></ul>
-        <ul><a href="#contribuicoes5"> Contribuições pessoais </a></ul>
-        <ul><a href="#licoes5"> Lições aprendidas </a></ul>
-        <ul><a href="#consideracoes5"> Considerações finais </a></ul>
-</details>
-<details>
-<summary><a href="#o-projeto5"> API 6º Semestre </a></summary>
-        <ul><a href="#arquitetura6"> Arquitetura do projeto </a></ul>
-        <ul><a href="#solucao6"> Sobre o projeto </a></ul>
-        <ul><a href="#tecnologias6"> Tecnologias utilizadas </a></ul>
-        <ul><a href="#contribuicoes6"> Contribuições pessoais </a></ul>
-        <ul><a href="#licoes6"> Lições aprendidas </a></ul>
-        <ul><a href="#consideracoes6"> Considerações finais </a></ul>
-</details>
-
-
 <h2 id="sobre-mim"> Sobre mim </h2>
 
 *Sou um desenvolvedor Back-End com foco em Banco de Dados e APIs, atualmente cursando Banco de Dados na FATEC São José dos Campos. Minha trajetória na área começou com minha formação técnica em Informática pela Etec de Jaú, onde tive meu primeiro contato com programação e bancos de dados.
@@ -99,18 +44,18 @@ Como foi minha primeira vez atuando como *Scrum Master* e trabalhando com Python
 
 #### Hard Skills
 
-- **Lógica de Programação**  
+- Lógica de Programação<br>
   Reaprendi a lógica de programação, essencial após um longo tempo sem programar.
 
-- **Metodologias Ágeis**  
+- Metodologias Ágeis<br>
   Foi meu primeiro contato com metodologias ágeis, especialmente com Scrum.
 
 #### Soft Skills
 
-- **Trabalho em Equipe**  
+- Trabalho em Equipe<br>
   Vivenciei pela primeira vez o desenvolvimento de um projeto em equipe.
 
-- **Liderança e Gestão de Equipe**  
+- Liderança e Gestão de Equipe<br>
   Atuei como *Scrum Master*, aprendendo na prática como guiar e organizar o time.
 
 ---
@@ -308,20 +253,20 @@ public class ProjectController {
 Este foi o primeiro projeto em que atuei exclusivamente como desenvolvedor, o que me permitiu focar 100% na codificação das funcionalidades e no aprendizado técnico mais profundo.
 
 #### Hard Skills
-- Java & OOP:
+- Java & OOP:<br>
 Primeiro projeto utilizando Java e programação orientada a objetos. Aprendi desde a sintaxe da linguagem até padrões básicos de projeto e boas práticas.
 
-- Modelagem de Banco de Dados:
+- Modelagem de Banco de Dados:<br>
 Responsável por toda a estruturação do banco relacional. Aprofundei conhecimentos em normalização, integridade referencial e design de tabelas.
 
-- Docker & PostgreSQL:
+- Docker & PostgreSQL:<br>
 Montei o ambiente de banco com contêineres, criando um fluxo de desenvolvimento que simulava produção localmente.
 
 ### Softskills
-- Trabalho em Equipe e Comunicação:
+- Trabalho em Equipe e Comunicação:<br>
 Melhorei minha comunicação com o time, aprendendo a reportar status, esclarecer dúvidas e contribuir com sugestões.
 
-- Organização e Planejamento:
+- Organização e Planejamento:<br>
 Desenvolvi disciplina para organizar minhas tarefas e entregas. Criei rotinas de revisão, controle de tempo e priorização de atividades.
 
 ---
@@ -470,20 +415,20 @@ public class ProjectController {
 Este projeto foi uma grande virada no meu desenvolvimento profissional. Pela primeira vez, atuei como `Product Owner (PO)`, papel que exige uma visão mais ampla do projeto, equilíbrio entre as necessidades do cliente e as limitações técnicas da equipe, além de uma forte habilidade de comunicação.
 
 #### Hard Skills
-- Spring Boot
+- Spring Boot<br>
 Aprofundei meu conhecimento no ecossistema Spring ao acompanhar a criação de APIs RESTful com autenticação, segurança e integração com banco de dados.
 
-- DBA & Modelagem de Dados
+- DBA & Modelagem de Dados<br>
 Acompanhei e validei as estruturas do banco com foco em coerência, performance e integridade.
 
 #### Soft Skills
-- Gerenciamento de Pessoas e Tarefas
+- Gerenciamento de Pessoas e Tarefas<br>
 Organizei o backlog, defini prioridades com base no feedback do cliente e garanti o foco do time nos itens de maior valor.
 
-- Comunicação Estratégica
+- Comunicação Estratégica<br>
 Estabeleci ponte entre cliente e equipe técnica, traduzindo demandas em requisitos técnicos claros.
 
-- Visão de Produto
+- Visão de Produto<br>
 Aprendi a tomar decisões equilibrando valor de negócio, esforço de desenvolvimento e usabilidade.
 
 ---
@@ -641,23 +586,23 @@ public class ProjectController {
 Este projeto consolidou muitos dos aprendizados dos projetos anteriores e me permitiu explorar mais o ecossistema Spring Boot com foco em APIs REST, segurança e documentação técnica.
 
 #### Hard Skills
-- Spring Boot (REST APIs)
+- Spring Boot (REST APIs)<br>
 Implementação de controllers, serviços e integrações seguras.
 
-- Swagger
+- Swagger<br>
 Integração de documentação automática dos endpoints REST.
 
-- PostgreSQL + Docker
+- PostgreSQL + Docker<br>
 Experiência com persistência de dados e uso de containers para ambiente de desenvolvimento.
 
 #### Soft Skill
-- Comunicação Técnica
+- Comunicação Técnica<br>
 Contribuí com clareza na documentação e entendimento dos endpoints.
 
-- Responsabilidade Individual
+- Responsabilidade Individual<br>
 Assumi partes inteiras do sistema, mantendo padrão de código e boas práticas.
 
-- Adaptabilidade
+- Adaptabilidade<br>
 Mesmo com mudanças nos requisitos, consegui adaptar os endpoints para manter a compatibilidade com o front-end.
 
 ---
@@ -736,6 +681,7 @@ for _, hiring := range hiringData {
     totalHiringTime += hiring.MetSumDurationHiringProces
 }
 ```
+</details>
 
 #### Testes Unitários
 <details>
@@ -786,26 +732,26 @@ Também foi minha introdução ao mundo DevOps, especialmente em relação à or
 Além disso, retornei à função de Scrum Master com maior maturidade, ajudando a equipe a manter ritmo, foco e transparência nas entregas.
 
 #### Hard Skills
-- Golang + Ent
+- Golang + Ent<br>
 Desenvolvimento back-end com tipagem forte e geração automática de modelos.
 
-- Testes Unitários
+- Testes Unitários<br>
 Validação de lógica com cobertura de testes e boas práticas.
 
-- PostgreSQL + Docker Compose
+- PostgreSQL + Docker Compose<br>
 Configuração de ambientes isolados para desenvolvimento e teste.
 
-- Documentação de banco
+- Documentação de banco<br>
 Criação e versionamento da modelagem do banco relacional.
 
 #### Soft Skills
-- Resiliência e Adaptabilidade
+- Resiliência e Adaptabilidade<br>
 Enfrentei desafios técnicos (bugs e integrações) com persistência e foco em soluções.
 
-- Liderança Técnica como Scrum Master
+- Liderança Técnica como Scrum Master<br>
 Apoiei a equipe com foco em agilidade e organização.
 
-- Trabalho Colaborativo
+- Trabalho Colaborativo<br>
 Coordenei revisões de documentação e integração entre as partes do sistema.
 
 
