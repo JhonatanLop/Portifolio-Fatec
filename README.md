@@ -69,75 +69,95 @@ Minha experiência acadêmica tem sido marcada por projetos práticos e colabora
 </div>
 
 ---
+## Ferramenta de Avaliação 360º
 
-<h2 id = "o-projeto1"> Ferramenta de avaliação 360º </h2>
-<h4> 1º semestre • 2022 • <a href="https://github.com/JhonatanLop/api1/blob/main/README.md">Repositório Github</a><h4>
-<p>Parceiro Acadêmico: <a href = "https://2rpnet.com.br/">PBLTeX</a></p>
+**1º semestre • 2022**  
+[Repositório GitHub](https://github.com/JhonatanLop/api1/blob/main/README.md)  
+**Parceiro Acadêmico:** [PBLTeX](https://2rpnet.com.br/)
 
-<h3 id = "solucao"> Prévia da solução </h2>
+### Prévia da Solução
 
-Desenvolvimento de uma solução computacional que viabilize a aplicação da técnica de Avaliação 360° e a análise dos dados obtidos pelos alunos e instrutores da instituição de ensino PBLTeX, especializada em cursos e práticas de ensino aplicando PBL (Problem Based Learning).<br>
+Desenvolvemos uma solução computacional que possibilita a aplicação da técnica de Avaliação 360° e a análise dos dados coletados de alunos e instrutores da instituição de ensino PBLTeX, especializada em metodologias de ensino baseadas em problemas (PBL — *Problem Based Learning*).
 
-Foi utilizado Python para o desenvolvimento desta solução, o que proporcionou uma experiência prática com essa linguagem de programação. A escolha do Python se deu pela sua simplicidade e eficiência, facilitando a implementação das funcionalidades necessárias para a coleta e análise dos dados de avaliação.
+Utilizamos a linguagem Python como base do projeto, devido à sua simplicidade e eficiência, o que facilitou a implementação das funcionalidades necessárias para coleta e análise de dados. A interface foi desenvolvida utilizando a biblioteca Tkinter.
 
-Este foi meu primeiro projeto, portanto, é um trabalho bem amador. Enfrentei diversos desafios ao longo do desenvolvimento, mas cada obstáculo superado contribuiu significativamente para o meu aprendizado e crescimento profissional. A experiência adquirida neste projeto foi fundamental para o meu desenvolvimento como programador.
+Este foi meu primeiro projeto acadêmico, portanto, possui um caráter mais experimental e iniciante. Enfrentei muitos desafios técnicos e de organização, mas cada obstáculo superado contribuiu significativamente para meu aprendizado e desenvolvimento profissional. Essa experiência foi essencial para consolidar minhas bases na programação.
 
-<h3 id = "tecnologias">Tecnologias utilizadas</h3>
+### Tecnologias Utilizadas
 
->* [Python 3](https://www.python.org/downloads/).
->* [Tkinter](https://docs.python.org/pt-br/3/library/tkinter.html).
+- [Python 3](https://www.python.org/downloads/)
+- [Tkinter](https://docs.python.org/pt-br/3/library/tkinter.html)
 
-<h2> Contribuições Pessoais </h2>
+### Contribuições Pessoais
 
-Fui responsável por implementar parte das permissões de acesso, garantindo que apenas usuários autorizados pudessem realizar determinadas ações no sistema. Além disso, também fiquei responsável pela parte de alguns módulos para a parte visual dos dashboards.
+- Implementei parte do controle de permissões de acesso, garantindo que apenas usuários autorizados pudessem realizar determinadas ações no sistema.
+- Atuei também no desenvolvimento de módulos da interface gráfica, contribuindo para a construção dos dashboards do sistema.
 
+### Lições Aprendidas
 
-<h2 id = "licoes1"> Lições Aprendidas </h2>
+Como foi minha primeira vez atuando como *Scrum Master* e trabalhando com Python, tive bastante dificuldade em compreender e definir as tarefas, bem como em entender a lógica por trás das soluções. Também fazia muito tempo desde meu último contato com programação, então precisei reaprender tanto os fundamentos de lógica quanto as particularidades da linguagem.
 
-<p> Como foi minha primeira vez sendo SM e trabalhando com Python foi muito desafiador na hora de descifrar as tarefas e entender realmente oque deveria ser feito e como deveria ser feito. Também sendo a primeira vez em muito tempo desde meu útimo contato com programação tive que reaprender a lógica junto com as particularidades da linguágem </p>
+#### Hard Skills
 
-### Hardskills
-- Lógica de programação
-- Metodologia ágil
+- **Lógica de Programação**  
+  Reaprendi a lógica de programação, essencial após um longo tempo sem programar.
 
-### Softskills
-- Trabalho em equipe
+- **Metodologias Ágeis**  
+  Foi meu primeiro contato com metodologias ágeis, especialmente com Scrum.
+
+#### Soft Skills
+
+- **Trabalho em Equipe**  
+  Vivenciei pela primeira vez o desenvolvimento de um projeto em equipe.
+
+- **Liderança e Gestão de Equipe**  
+  Atuei como *Scrum Master*, aprendendo na prática como guiar e organizar o time.
 
 ---
 
-<h2 id = "o-projeto2"> Ferramenta para controle de Horas Extras e Sobreavisos </h2>
-<h4> 2º semestre • 2022 • <a href="https://github.com/projetoKhali/API2Semestre/blob/main/README.md">Repositório Github</a><h4>
-<p>Parceiro Acadêmico: <a href = "https://2rpnet.com.br/">2RP Net</a></p>
+## Projeto 2 — Ferramenta para Controle de Horas Extras e Sobreavisos
 
-<h3 id = "solucao"> Prévia da solução </h2>
+**2º semestre • 2022**  
+[Repositório GitHub](https://github.com/projetoKhali/API2Semestre/blob/main/README.md)  
+**Parceiro Acadêmico:** [2RP Net](https://2rpnet.com.br/)
 
-<p>O objetivo era fazer um sistema que controlasse a jornada de trabalho dos colaboradores, ajudando a identificar e classificar as horas extras e sobreavisos.</p>
+---
 
-<p>O sistema permite que os colaboradores registrem suas horas de entrada e saída, além de fornecer uma interface para a classificação das horas como horas extras ou sobreavisos. Ele também gera relatórios e estatísticas sobre as horas trabalhadas.</p>
+### Prévia da Solução
 
-<p>Para isso, as funções de cadastro de horas extras enviam essas horas para uma central de processamento, onde as horas são divididas de acordo com as regras de negócios específicas previamente configuradas pelo perfil Administrador. As horas já divididas e classificadas são então salvas no banco de dados.</p>
+O objetivo do projeto foi desenvolver um sistema para controle de jornada de trabalho dos colaboradores da 2RP Net, com foco na classificação automatizada de horas extras e sobreavisos.
 
-<h3 id = "tecnologias">Tecnologias utilizadas</h3>
+A solução permite que colaboradores registrem seus horários de entrada e saída e classifiquem essas horas, com base em regras de negócio configuradas previamente por administradores. A aplicação também oferece a geração de relatórios e estatísticas sobre o tempo trabalhado.
 
-<h4> Back-End </h4>
->* [Java 17](https://www.oracle.com/br/java/technologies/downloads/#jdk17-windows).
->* [Docker](https://www.docker.com/) com [Docker Compose](https://docs.docker.com/compose/).
->* [PostgreSQL 15](https://www.postgresql.org/) banco de dados escolhido.
-<br>
+No back-end, criamos uma lógica que processa os apontamentos enviados pelos usuários, realiza a classificação de acordo com regras específicas, e persiste os dados já tratados no banco de dados PostgreSQL. O sistema também permite exportar relatórios em `.csv`, com a opção de filtrar colunas de acordo com o interesse do usuário.
 
-<h4> Front-End </h4>
-> * [JavaFX](https://www.oracle.com/br/java/technologies/javase/javafx-overview.html).
-> * [SceneBuilder](https://www.oracle.com/java/technologies/javase/javafxscenebuilder-info.html)
+---
 
-<h2> Contribuições Pessoais </h2>
+### Tecnologias Utilizadas
 
-<h3> Back-End </h3>
+#### Back-End
+
+- [Java 17](https://www.oracle.com/br/java/technologies/downloads/#jdk17-windows)
+- [Docker](https://www.docker.com/) com [Docker Compose](https://docs.docker.com/compose/)
+- [PostgreSQL 15](https://www.postgresql.org/)
+
+#### Front-End
+
+- [JavaFX](https://www.oracle.com/br/java/technologies/javase/javafx-overview.html)
+- [SceneBuilder](https://www.oracle.com/java/technologies/javase/javafxscenebuilder-info.html)
+
+---
+
+### Contribuições Pessoais
+
+#### Criptografia de Senhas
+
+Implementei a criptografia das senhas dos usuários utilizando o algoritmo MD5. O objetivo era garantir segurança, evitando que senhas em texto puro fossem salvas no banco.
+
+Além da função de criptografia, adaptei o fluxo de autenticação para validar senhas criptografadas.
 
 <details>
-<summary> Criptografia </summary>
-<p>desenvolvi o método para criptografia das senhas dos usuários</p>
-<p>O objetivo é aumentar a segurança e a privacidade do usuário. Ao invéz de a senha ser salva diretamente no banco como ela é, ela passa por um processo de criptografia oque garente que nem o pessoal com acesso direto ao banco de dados consiga vê-la</p>
-<p>Com isso também tive que fazer modificações nos métodos de login para comparação de input de senha criptografada com o hash da senha salvo no banco de dados</p>
+<summary>Código - Criptografia</summary>
 
 ```java
 public static String encode(String input) {
@@ -161,26 +181,26 @@ public static String encode(String input) {
 ```
 
 ```java
-    @PostMapping
-    public User createUser(@RequestBody User user) {    
-        user.setPassword(Cryptography.encode(user.getRegistration()));
-        return userRepository.save(user);
-    }
+@PostMapping
+public User createUser(@RequestBody User user) {    
+    user.setPassword(Cryptography.encode(user.getRegistration()));
+    return userRepository.save(user);
+}
 
-    @PostMapping("/login")
-    public User login(@RequestBody LoginRequest loginRequest) {
-        return userService.getValidatedUser(loginRequest.getEmail(), Cryptography.encode(loginRequest.getPassword()));
-    }
+@PostMapping("/login")
+public User login(@RequestBody LoginRequest loginRequest) {
+    return userService.getValidatedUser(loginRequest.getEmail(), Cryptography.encode(loginRequest.getPassword()));
+}
 ```
 </details>
 
 <br>
 
+#### Modelagem e Implementação do Banco de Dados
+Fui responsável pela modelagem e implementação do banco de dados. Utilizamos PostgreSQL em contêiner Docker com Docker Compose, o que garantiu portabilidade e agilidade no desenvolvimento.
+
 <details>
-    <summary> Modelagem de banco de dados </summary>
-<p>Fui responsável pela modelagem e implementação do banco de dados.</p>
-<p>Utilizamos o banco de dados Postgres rodando localmente atravéz conteineres usando docker-compose. É uma ótima ferramenta que permite subir e derrubar multiplos conteineres de forma fácil e rápida.</p>
-<p>A modelagem do banco de dados foi feita atrávez de diagramas de Modelo Entidade Relacionamento e implementado atravéz de códigos SQL, no momento até então, sem versionamento do estado do banco.</p>
+<summary>Código - Estrutura das Tabelas</summary>
 
 ```sql
 -- apontamento
@@ -213,10 +233,11 @@ CREATE TABLE IF NOT EXISTS public.usuario(
 
 <br>
 
-<details>
-    <summary> Extração de relatório </summary>
-<p>A extração de relatório era um requisito do cliente. O objetivo era poder extrair em um relatório .csv dos apontamentos lançados no sistema.</p>
-<p>Como "plus", também foi feito um filtro das colunas possíves de serem geradas, onde é possível excluir alguns dos dados caso fosse pertinente</p>
+#### Extração de relatório
+Implementei a geração de relatórios `.csv` com apontamentos realizados no sistema. Adicionalmente, desenvolvi um filtro para seleção de colunas, permitindo personalização dos dados exportados.
+
+<details> 
+<summary>Código - Exportação de Relatório CSV</summary>
 
 ```java
 try (PrintWriter writer = response.getWriter()) {
@@ -252,10 +273,11 @@ try (PrintWriter writer = response.getWriter()) {
 
 <br>
 
-<details>
-    <summary> Controller de Projeto</summary>
-<p>O Projeto é um dos dados a ser inseridos no apontamento. Para a seleção de um projeto na hora do lançamento de um apontamento é necessário que ele esteja cadastrado no banco de dados.</p>
-<p>Para isso foi necessário criar os endpoints para fazer a manipulação dos projetos. Cadastrar, excluir, editar e visualizar</p>
+#### CRUD de Projetos
+Implementei os endpoints REST do módulo de Projetos, que permite cadastrar, editar, excluir e listar os projetos disponíveis para apontamentos.
+
+<details> 
+<summary>Código - CRUD de Projetos</summary>
 
 ```java
 @RestController
@@ -279,58 +301,235 @@ public class ProjectController {
     }
 }
 ```
-
 </details>
 
-<h2> Lições Aprendidas </h2>
+### Lições Aprendidas
 
-<p>Como foi minha primeira vez sendo PO e trabalhando com APIs foi muito desafiador na hora de criar as tarefas e entender realmente oque deveria ser feito e como deveria ser feito.
-Tive meu primeiro contato com Spring boot e no desenvolvimento de APIs e pude aprender sobre os papéis de um DBA e modelagem do banco de dados.</p>
+Este foi o primeiro projeto em que atuei exclusivamente como desenvolvedor, o que me permitiu focar 100% na codificação das funcionalidades e no aprendizado técnico mais profundo.
 
-### Hardskills
-- DBA
-- Spring boot
+#### Hard Skills
+- Java & OOP:
+Primeiro projeto utilizando Java e programação orientada a objetos. Aprendi desde a sintaxe da linguagem até padrões básicos de projeto e boas práticas.
+
+- Modelagem de Banco de Dados:
+Responsável por toda a estruturação do banco relacional. Aprofundei conhecimentos em normalização, integridade referencial e design de tabelas.
+
+- Docker & PostgreSQL:
+Montei o ambiente de banco com contêineres, criando um fluxo de desenvolvimento que simulava produção localmente.
 
 ### Softskills
-- Gerenciamento de pessoas
-- Gerenciamento de atividades
+- Trabalho em Equipe e Comunicação:
+Melhorei minha comunicação com o time, aprendendo a reportar status, esclarecer dúvidas e contribuir com sugestões.
+
+- Organização e Planejamento:
+Desenvolvi disciplina para organizar minhas tarefas e entregas. Criei rotinas de revisão, controle de tempo e priorização de atividades.
 
 ---
 
-<h2 id = "o-projeto3"> Ferramenta para controle de Horas Extras e Sobreavisos </h2>
-<h4> 3º semestre • 2022 • <a href="https://github.com/projetoKhali/api3/blob/main/README.md">Repositório Github</a><h4>
-<p>Parceiro Acadêmico: <a href = "https://2rpnet.com.br/">2RP Net</a></p>
+## Projeto 3 — Ferramenta para Controle de Horas Extras e Sobreavisos (Reformulação)
 
-<h3 id = "solucao"> Prévia da solução </h2>
+**3º semestre • 2022**  
+[Repositório GitHub](https://github.com/projetoKhali/api3/blob/main/README.md)  
+**Parceiro Acadêmico:** [2RP Net](https://2rpnet.com.br/)
 
-<p>O objetivo era fazer um sistema que fizesse o controle da jornada de trabalho do colaborador, ajudar a identificar e classificar as horas extras e sobreavisos.</p>
+### Prévia da Solução
 
-<p>O sistema permite que os colaboradores registrem suas horas de entrada e saída, além de fornecer uma interface para a classificação das horas como horas extras ou sobreavisos. Ele também gera relatórios e estatísticas sobre as horas trabalhadas. </p>
+Este projeto foi uma evolução da solução desenvolvida no semestre anterior, com o objetivo de refinar o controle da jornada de trabalho de colaboradores da 2RP Net. O sistema continuou oferecendo funcionalidades de registro de horários, classificação automática de horas extras e sobreavisos, além da geração de relatórios e estatísticas.
 
-<p>Para isso, as APIs de cadastro de horas extras enviam essas horas para um central de processamento, onde as horas são dividades de acordo com as regras de negócios específicas préviamente configuradas pelo perfil Administrador. As horas já divididas e classificadas seriam então salvas no banco de dados.</p>
+As APIs de registro de horas se comunicam com uma central de processamento que aplica regras de negócio configuráveis para classificar os registros. Os dados são então persistidos em um banco PostgreSQL.
 
-<h3 id = "tecnologias">Tecnologias utilizadas</h3>
+Desta vez, o projeto contou com uma stack mais moderna no front-end, com React e TypeScript, e com uso do Spring Boot no back-end.
+
+###  Tecnologias Utilizadas
 
 #### Back-End
->* [Java 17](https://www.oracle.com/br/java/technologies/downloads/#jdk17-windows).
->* [Spring](https://spring.io/).
->* [Docker](https://www.docker.com/) com [Docker Compose](https://docs.docker.com/compose/).
->* [PostgreSQL 15](https://www.postgresql.org/) banco de dados escolhido.
-<br>
+
+- [Java 17](https://www.oracle.com/br/java/technologies/downloads/#jdk17-windows)
+- [Spring Boot](https://spring.io/)
+- [Docker](https://www.docker.com/) + [Docker Compose](https://docs.docker.com/compose/)
+- [PostgreSQL 15](https://www.postgresql.org/)
 
 #### Front-End
-> * [React](https://react.dev/).
-> * [Typescript](https://www.typescriptlang.org).
 
-<h2> Contribuições Pessoais </h2>
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org)
 
-<h3> Back-End </h3>
+### Contribuições Pessoais
+
+Neste projeto, atuei como **Product Owner (PO)**, papel no qual fui responsável por organizar as demandas junto ao cliente, definir prioridades, escrever histórias de usuário e acompanhar a entrega técnica do time.
+
+Mesmo como PO, contribuí diretamente com o desenvolvimento back-end em pontos específicos, como segurança, API de projetos e relatórios.
+
+#### Criptografia de Senhas
 
 <details>
-<summary> Criptografia </summary>
-<p>desenvolvi o método para criptografia das senhas dos usuários</p>
-<p>O objetivo é aumentar a segurança e a privacidade do usuário. Ao invéz de a senha ser salva diretamente no banco como ela é, ela passa por um processo de criptografia oque garente que nem o pessoal com acesso direto ao banco de dados consiga vê-la</p>
-<p>Com isso também tive que fazer modificações nos métodos de login para comparação de input de senha criptografada com o hash da senha salvo no banco de dados</p>
+<summary>Código - Criptografia</summary>
+
+```java
+public static String encode(String input) {
+    try {
+        MessageDigest md = MessageDigest.getInstance("MD5");
+
+        byte[] bytes = input.getBytes();
+        byte[] digest = md.digest(bytes);
+
+        StringBuilder sb = new StringBuilder();
+        for (byte b : digest) {
+                sb.append(String.format("%02x", b));
+        }
+
+        return sb.toString();
+    } catch (NoSuchAlgorithmException e) {
+        e.printStackTrace();
+        return null;
+    }
+}
+```java
+@PostMapping
+public User createUser(@RequestBody User user) {    
+    user.setPassword(Cryptography.encode(user.getRegistration()));
+    return userRepository.save(user);
+}
+
+@PostMapping("/login")
+public User login(@RequestBody LoginRequest loginRequest) {
+    return userService.getValidatedUser(loginRequest.getEmail(), Cryptography.encode(loginRequest.getPassword()));
+}
+```
+</details>
+
+#### Extração de Relatórios
+<details>
+<summary>Código - Exportação de Relatório CSV</summary>
+
+```java
+try (PrintWriter writer = response.getWriter()) {
+    CSVWriter csvWriter = new CSVWriter(writer);
+
+    List<String> header = new ArrayList<>();
+
+    for (int i = 0; i < headers.length; i++) { 
+        if (camposBoolean[i]) { 
+            header.add(headers[i]); 
+        }
+    }
+
+    csvWriter.writeNext(header.toArray(new String[0]));
+
+    List<String> data = new ArrayList<>();
+    for (Appointment apt : allAppointments) {
+        Timestamp total = new Timestamp(apt.getEndDate().getTime() - apt.getStartDate().getTime());
+        if (camposBoolean[1]) data.add(apt.getUser().getRegistration());
+        if (camposBoolean[2]) data.add(apt.getUser().getName());
+        if (camposBoolean[3]) data.add(apt.getStartDate().toString());
+        if (camposBoolean[4]) data.add(apt.getEndDate().toString());
+        if (camposBoolean[5]) data.add(total.toString());
+        if (camposBoolean[6]) data.add(apt.getType().toString());
+        if (camposBoolean[7]) data.add(apt.getResultCenter().getName());
+        if (camposBoolean[8]) data.add(apt.getClient().getName());
+        if (camposBoolean[9]) data.add(apt.getProject().getName());
+        if (camposBoolean[10]) data.add(apt.getJustification());
+
+        csvWriter.writeNext(data.toArray(new String[0]));
+    }
+
+    csvWriter.close();
+}
+```
+</details>
+
+#### CRUD de Projetos
+<details> <summary>Código - Controller de Projeto</summary>
+
+```java
+@RestController
+@RequestMapping("/projects")
+public class ProjectController {
+
+    @Autowired 
+    private ProjectRepository projectRepository;
+
+    public ProjectController(ProjectRepository projectRepository) {
+        this.projectRepository = projectRepository;
+    }
+
+    @PostMapping
+    public Project createProject(@RequestBody Project project) {
+        return projectRepository.save(project);
+    }
+
+    @GetMapping()
+    public List<Project> getAllProjects(){
+        return projectRepository.findAllActiveProjects();
+    }
+}
+```
+</details>
+
+### Lições Aprendidas
+Este projeto foi uma grande virada no meu desenvolvimento profissional. Pela primeira vez, atuei como `Product Owner (PO)`, papel que exige uma visão mais ampla do projeto, equilíbrio entre as necessidades do cliente e as limitações técnicas da equipe, além de uma forte habilidade de comunicação.
+
+#### Hard Skills
+- Spring Boot
+Aprofundei meu conhecimento no ecossistema Spring ao acompanhar a criação de APIs RESTful com autenticação, segurança e integração com banco de dados.
+
+- DBA & Modelagem de Dados
+Acompanhei e validei as estruturas do banco com foco em coerência, performance e integridade.
+
+#### Soft Skills
+- Gerenciamento de Pessoas e Tarefas
+Organizei o backlog, defini prioridades com base no feedback do cliente e garanti o foco do time nos itens de maior valor.
+
+- Comunicação Estratégica
+Estabeleci ponte entre cliente e equipe técnica, traduzindo demandas em requisitos técnicos claros.
+
+- Visão de Produto
+Aprendi a tomar decisões equilibrando valor de negócio, esforço de desenvolvimento e usabilidade.
+
+---
+
+## Projeto 4 — Dashboard de Parceiros
+
+**4º semestre • 2022**  
+[Repositório GitHub](https://github.com/projetoKhali/api4/blob/main/README.md)  
+**Parceiro Acadêmico:** [2RP Net](https://www.oracle.com/partnernetwork/program/)
+
+### Prévia da Solução
+
+O objetivo do projeto era criar um sistema com **dashboards analíticos interativos** para visualizar o progresso dos parceiros da 2RP Net em trilhas de capacitação. Os dados apresentados envolviam:
+
+- Progresso individual dos parceiros por track, expertise e qualificador.
+- Tempo médio de conclusão.
+- Número de parceiros por conteúdo.
+- Comparativos e métricas agregadas de desempenho.
+
+Essa visualização era importante para os gestores acompanharem a evolução dos parceiros e planejarem ações de capacitação com base em dados concretos.
+
+### Tecnologias Utilizadas
+
+#### Back-End
+
+- [Java 17](https://www.oracle.com/br/java/technologies/downloads/#jdk17-windows)
+- [Spring Boot](https://spring.io/)
+- [Docker](https://www.docker.com/) + [Docker Compose](https://docs.docker.com/compose/)
+- [PostgreSQL 15](https://www.postgresql.org/)
+
+#### Front-End
+
+- [Vue.js](https://vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint + Prettier](https://eslint.org/)
+
+### Contribuições Pessoais
+
+Atuei como **desenvolvedor back-end**, focando em segurança, documentação das APIs, extração de dados e funcionalidades CRUD de entidades-chave. Abaixo, listo as principais contribuições com trechos de código:
+
+#### Documentação com Swagger e Criptografia
+
+<details>
+<summary>Criptografia de Senhas</summary>
+
+Implementei criptografia via algoritmo MD5 para proteger as credenciais dos usuários:
 
 ```java
 public static String encode(String input) {
@@ -352,27 +551,25 @@ public static String encode(String input) {
     }
 }
 ```
-
 ```java
-    @PostMapping
-    public User createUser(@RequestBody User user) {    
-        user.setPassword(Cryptography.encode(user.getRegistration()));
-        return userRepository.save(user);
-    }
+@PostMapping
+public User createUser(@RequestBody User user) {    
+    user.setPassword(Cryptography.encode(user.getRegistration()));
+    return userRepository.save(user);
+}
 
-    @PostMapping("/login")
-    public User login(@RequestBody LoginRequest loginRequest) {
-        return userService.getValidatedUser(loginRequest.getEmail(), Cryptography.encode(loginRequest.getPassword()));
-    }
+@PostMapping("/login")
+public User login(@RequestBody LoginRequest loginRequest) {
+    return userService.getValidatedUser(loginRequest.getEmail(), Cryptography.encode(loginRequest.getPassword()));
+}
 ```
+A documentação dos endpoints foi realizada com Swagger, fornecendo exemplos de requisições e respostas para facilitar o uso das APIs.
 </details>
 
-<br>
-
+#### Extração de Relatório em CSV
 <details>
-    <summary> Extração de relatório </summary>
-<p>A extração de relatório era um requisito do cliente. O objetivo era poder extrair em um relatório .csv dos apontamentos lançados no sistema.</p>
-<p>Como "plus", também foi feito um filtro das colunas possíves de serem geradas, onde é possível excluir alguns dos dados caso fosse pertinente</p>
+<summary>Exportação Customizada</summary>
+Implementei uma funcionalidade de exportação de dados com filtro de colunas configuráveis pelo usuário:
 
 ```java
 try (PrintWriter writer = response.getWriter()) {
@@ -380,166 +577,11 @@ try (PrintWriter writer = response.getWriter()) {
 
     List<String> header = new ArrayList<>();
 
-    for (int i = 0; i < headers.length; i++) { if (camposBoolean[i]) { header.add(headers[i]); }}
-
-    csvWriter.writeNext(header.toArray(String[]::new));
-
-    List<String> data = new ArrayList<>();
-    for (Appointment apt : allAppointments) {
-        Timestamp total = new Timestamp(apt.getEndDate().getTime() - apt.getStartDate().getTime());
-        if (camposBoolean[1]) data.add(apt.getUser().getRegistration());
-        if (camposBoolean[2]) data.add(apt.getUser().getName());
-        if (camposBoolean[3]) data.add(apt.getStartDate().toString());
-        if (camposBoolean[4]) data.add(apt.getEndDate().toString());
-        if (camposBoolean[5]) data.add(total.toString());
-        if (camposBoolean[6]) data.add(apt.getType().toString());
-        if (camposBoolean[7]) data.add(apt.getResultCenter().getName());
-        if (camposBoolean[8]) data.add(apt.getClient().getName());
-        if (camposBoolean[9]) data.add(apt.getProject().getName());
-        if (camposBoolean[10]) data.add(apt.getJustification());
-
-        csvWriter.writeNext(data.toArray(new String[0]));
-    }
-
-    csvWriter.close();
-}
-```
-</details>
-
-<br>
-
-<details>
-    <summary> Controller de Projeto</summary>
-<p>O Projeto é um dos dados a ser inseridos no apontamento. Para a seleção de um projeto na hora do lançamento de um apontamento é necessário que ele esteja cadastrado no banco de dados.</p>
-<p>Para isso foi necessário criar os endpoints para fazer a manipulação dos projetos. Cadastrar, excluir, editar e visualizar</p>
-
-```java
-@RestController
-@RequestMapping("/projects")
-public class ProjectController {
-
-    @Autowired private ProjectRepository projectRepository;
-
-    public ProjectController(ProjectRepository projectRepository) {
-        this.projectRepository = projectRepository;
-    }
-
-    @PostMapping
-    public Project createProject(@RequestBody Project project) {
-        return projectRepository.save(project);
-    }
-
-    @GetMapping()
-    public List<Project> getAllProjects(){
-        return projectRepository.findAllActiveProjects();
-    }
-}
-```
-
-</details>
-
-<h2> Lições Aprendidas </h2>
-
-
-
-### Hardskills
-- DBA
-- Spring boot
-
-### Softskills
-- Gerenciamento de pessoas
-- Gerenciamento de atividades
-
----
-
-<h2 id = "o-projeto4" align="center"> Dashboard de Parceiros </h2>
-<h4> 4º semestre • 2022 • <a href="https://github.com/projetoKhali/api4/blob/main/README.md">Repositório Github</a><h4>
-<p>Parceiro Acadêmico: <a href = "https://www.oracle.com/partnernetwork/program/">2RP Net</a></p>
-
-<h3 id = "solucao4"> Prévia da solução </h2>
-
-<p>Visão Analítica Individual do Progresso dos Parceiros</p>
-
-<p>O objetivo era criar dashboard interativo com gráficos e métricas que mostram o progresso individual dos parceiros em relação às tracks, expertises e qualificadores, dados que serão analisados, progresso médio do parceiro por track, progresso por expertise, quantidade de expertises concluidas e em andamentos, tempo médio de conclusão de expertise e qualificadores</p>
-
-<p> Visão Analítica Individual dos Produtos </p>
-
-<p> O software conta com dashboards interativos com graficos e métricas que mostram o progresso individual das tracks suas expertises e qualificadores em relação ao parceiros, dados que serão analisados édia de conclusão da track, expertise e qualificador, número de parceiros por tracks e expertise, média de conclusão da expertise e qualificar. </p>
-
-
-<h3 id = "tecnologias4">Tecnologias utilizadas</h3>
-
-#### Back-End
->* [Java 17](https://www.oracle.com/br/java/technologies/downloads/#jdk17-windows).
->* [Spring](https://spring.io/).
->* [Docker](https://www.docker.com/) com [Docker Compose](https://docs.docker.com/compose/).
->* [PostgreSQL 15](https://www.postgresql.org/)
-<br>
-
-#### Front-End
-> * [Vue JS](https://react.dev/).
-> * [Typescript](https://www.typescriptlang.org).
-> * [Eslint + Prettier](https://www.typescriptlang.org).
-
-<h2> Contribuições Pessoais </h2>
-
-<h3> Back-End </h3>
-
-<details>
-<summary> Swagger </summary>
-<p>Documentação das APIS</p>
-<p>O objetivo é documentar os endpoints com o formato das requisições e exemplos de respostas para </p>
-<p>Com isso também tive que fazer modificações nos métodos de login para comparação de input de senha criptografada com o hash da senha salvo no banco de dados</p>
-
-```java
-public static String encode(String input) {
-    try {
-        MessageDigest md = MessageDigest.getInstance("MD5");
-
-        byte[] bytes = input.getBytes();
-        byte[] digest = md.digest(bytes);
-
-        StringBuilder sb = new StringBuilder();
-        for (byte b : digest) {
-                sb.append(String.format("%02x", b));
+    for (int i = 0; i < headers.length; i++) { 
+        if (camposBoolean[i]) { 
+            header.add(headers[i]); 
         }
-
-        return sb.toString();
-    } catch (NoSuchAlgorithmException e) {
-        e.printStackTrace();
-        return null;
     }
-}
-```
-
-```java
-    @PostMapping
-    public User createUser(@RequestBody User user) {    
-        user.setPassword(Cryptography.encode(user.getRegistration()));
-        return userRepository.save(user);
-    }
-
-    @PostMapping("/login")
-    public User login(@RequestBody LoginRequest loginRequest) {
-        return userService.getValidatedUser(loginRequest.getEmail(), Cryptography.encode(loginRequest.getPassword()));
-    }
-```
-</details>
-
-<br>
-
-<details>
-    <summary> Extração de relatório </summary>
-<p>A extração de relatório era um requisito do cliente. O objetivo era poder extrair em um relatório .csv dos apontamentos lançados no sistema.</p>
-<p>Como "plus", também foi feito um filtro das colunas possíves de serem geradas, onde é possível excluir alguns dos dados caso fosse pertinente</p>
-
-```java
-try (PrintWriter writer = response.getWriter()) {
-    CSVWriter csvWriter = new CSVWriter(writer);
-
-    List<String> header = new ArrayList<>();
-
-    for (int i = 0; i < headers.length; i++) { if (camposBoolean[i]) { header.add(headers[i]); }}
 
     csvWriter.writeNext(header.toArray(String[]::new));
 
@@ -565,19 +607,18 @@ try (PrintWriter writer = response.getWriter()) {
 ```
 </details>
 
-<br>
-
+#### CRUD de Projetos
 <details>
-    <summary> Controller de Projeto</summary>
-<p>O Projeto é um dos dados a ser inseridos no apontamento. Para a seleção de um projeto na hora do lançamento de um apontamento é necessário que ele esteja cadastrado no banco de dados.</p>
-<p>Para isso foi necessário criar os endpoints para fazer a manipulação dos projetos. Cadastrar, excluir, editar e visualizar</p>
+<summary>Controller de Projeto</summary>
+Implementei os endpoints REST para cadastro e visualização dos projetos disponíveis no sistema:
 
 ```java
 @RestController
 @RequestMapping("/projects")
 public class ProjectController {
 
-    @Autowired private ProjectRepository projectRepository;
+    @Autowired 
+    private ProjectRepository projectRepository;
 
     public ProjectController(ProjectRepository projectRepository) {
         this.projectRepository = projectRepository;
@@ -594,56 +635,83 @@ public class ProjectController {
     }
 }
 ```
-
 </details>
 
-<h2> Lições Aprendidas </h2>
+### Lições Aprendidas
+Este projeto consolidou muitos dos aprendizados dos projetos anteriores e me permitiu explorar mais o ecossistema Spring Boot com foco em APIs REST, segurança e documentação técnica.
 
-<p>Como foi minha primeira vez sendo PO e trabalhando com APIs foi muito desafiador na hora de criar as tarefas e entender realmente oque deveria ser feito e como deveria ser feito. O desenvolvimento de APIs pra </p>
-<p>
-Tive meu primeiro contato com Spring boot e no desenvolvimento de APIs e pude aprimorar minhas habilidades de DBA na modelagem do banco de dados inteiro.
-</p>
+#### Hard Skills
+- Spring Boot (REST APIs)
+Implementação de controllers, serviços e integrações seguras.
 
+- Swagger
+Integração de documentação automática dos endpoints REST.
+
+- PostgreSQL + Docker
+Experiência com persistência de dados e uso de containers para ambiente de desenvolvimento.
+
+#### Soft Skill
+- Comunicação Técnica
+Contribuí com clareza na documentação e entendimento dos endpoints.
+
+- Responsabilidade Individual
+Assumi partes inteiras do sistema, mantendo padrão de código e boas práticas.
+
+- Adaptabilidade
+Mesmo com mudanças nos requisitos, consegui adaptar os endpoints para manter a compatibilidade com o front-end.
 
 ---
 
-<h2 id = "o-projeto5" align="center"> Dashboard de Processos Seletivos </h2>
-<h4> 5º semestre • 2022 • <a href="https://github.com/projetoKhali/api5/blob/main/README.md">Repositório Github</a><h4>
-<p>Parceiro Acadêmico: <a href = "https://www.pro4tech.com.br/">PRO4TEC</a></p>
+## Projeto 5 — Dashboard de Processos Seletivos
 
-<h3 id = "solucao5"> Prévia da solução </h2>
+**5º semestre • 2022**  
+[Repositório GitHub](https://github.com/projetoKhali/api5/blob/main/README.md)  
+**Parceiro Acadêmico:** [PRO4TEC](https://www.pro4tech.com.br/)
 
-<p> Visão Analítica Individual dos processos seletivos </p>
+### Prévia da Solução
 
-<p> O desafio apresentado pela empresa Pro4tech consiste em aprimorar a eficiência e eficácia no processo de recrutamento e seleção, buscando otimizar a coleta, visualização e análise dos dados. A principal dificuldade está na fragmentação dessas informações, que precisam ser centralizadas para facilitar decisões estratégicas, melhorar a alocação de recursos e alinhar as estratégias de contratação aos objetivos organizacionais. </p>
+A proposta apresentada pela Pro4Tec consistia em **otimizar o processo de recrutamento e seleção**, centralizando e analisando dados fragmentados sobre as etapas dos processos seletivos.  
 
-<p> Nossa proposta consiste em um dashboard interativo que centraliza informações essenciais sobre o processo de recrutamento. Ele fornecerá insights valiosos e permitirá uma análise detalhada e personalizada das etapas de seleção. </p>
+A solução desenvolvida foi um **dashboard interativo** capaz de:
+- Visualizar a quantidade de processos em andamento, encerrados e expirados;
+- Analisar o tempo médio de duração dos processos;
+- Identificar prazos que estão se aproximando do fim;
+- Fornecer insights estratégicos para as lideranças.
 
+---
 
-<h3 id = "tecnologias5">Tecnologias utilizadas</h3>
+### Tecnologias Utilizadas
 
 #### Back-End
->* [Golang](https://go.dev/).
->* [Ent](https://entgo.io/).
->* [Docker](https://www.docker.com/) com [Docker Compose](https://docs.docker.com/compose/).
->* [PostgreSQL 15](https://www.postgresql.org/)
-<br>
+- [Golang](https://go.dev/)
+- [Ent](https://entgo.io/) (ORM)
+- [Docker](https://www.docker.com/) + [Docker Compose](https://docs.docker.com/compose/)
+- [PostgreSQL 15](https://www.postgresql.org/)
 
 #### Front-End
-> * [React](https://react.dev/).
-> * [Typescript](https://www.typescriptlang.org)
-<br>
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org)
 
-<h2> Contribuições Pessoais </h2>
+---
 
-<h3> Banco de dados </h3>
-<p> Criação e Documentação do banco de dados</p>
-<p> Fui responsável pela publicação, documentação e esquematização do banco de dados.</p>
-<p> Para isso utilziamos a ferramenta Vertabelo para auxiliar o processo de doucmentação. Na mesma ferramenta fizemos o DER que guiou o desenvolvimento durante o projeto em partes envolvendo banco de dados</p>
+### Contribuições Pessoais
 
-<h3> Back-end </h3>
-<p> Participei da criação de algumas funções que seriam usadas nos endpoints, a função que iria alimentar os cards da tela principal de dashboard</p>
-<p> Como "plus", também foi feito um filtro das colunas possíves de serem geradas, onde é possível excluir alguns dos dados caso fosse pertinente</p>
+#### Banco de Dados
+
+- Fui responsável por toda a **documentação e estruturação do banco de dados**, desde o **DER (Diagrama Entidade Relacionamento)** até a publicação.
+- Utilizei a ferramenta **Vertabelo** para projetar e documentar a base, garantindo clareza para a equipe de desenvolvimento e alinhamento com as necessidades da empresa parceira.
+
+---
+
+#### Lógica de Back-End
+
+<details>
+<summary>Função de Análise de Processos</summary>
+
+Implementei a lógica para alimentar os cards do dashboard com indicadores como:  
+- Total de processos por status (aberto, expirado, encerrado);
+- Processos próximos do prazo final;
+- Tempo médio dos processos seletivos.
 
 ```go
 for _, hiring := range hiringData {
@@ -669,56 +737,38 @@ for _, hiring := range hiringData {
 }
 ```
 
-<p> Também tivemos que fazer testes unitários, tanto para o backend quanto o frontend </p>
+#### Testes Unitários
+<details>
+<summary>Validação dos Cálculos com Testes</summary>
+Implementei testes unitários para garantir a precisão das métricas apresentadas no dashboard.
 
 ```go
 func TestComputingCardInfo(t *testing.T) {
-	// Criação de dados fictícios de DimProcess
 	process1 := &ent.DimProcess{
 		Status:      1,
-		InitialDate: time.Now().Add(-10 * 24 * time.Hour), // Início há 10 dias
-		FinishDate:  time.Now().Add(2 * 24 * time.Hour),   // Termina em 2 dias
+		InitialDate: time.Now().Add(-10 * 24 * time.Hour),
+		FinishDate:  time.Now().Add(2 * 24 * time.Hour),
 	}
 	process2 := &ent.DimProcess{
 		Status:      2,
-		InitialDate: time.Now().Add(-15 * 24 * time.Hour), // Início há 15 dias
-		FinishDate:  time.Now().Add(-5 * 24 * time.Hour),  // Terminou há 5 dias
+		InitialDate: time.Now().Add(-15 * 24 * time.Hour),
+		FinishDate:  time.Now().Add(-5 * 24 * time.Hour),
 	}
 	process3 := &ent.DimProcess{
 		Status:      3,
-		InitialDate: time.Now().Add(-30 * 24 * time.Hour), // Início há 30 dias
-		FinishDate:  time.Now().Add(-20 * 24 * time.Hour), // Terminou há 20 dias
+		InitialDate: time.Now().Add(-30 * 24 * time.Hour),
+		FinishDate:  time.Now().Add(-20 * 24 * time.Hour),
 	}
 
-	// Criação de dados fictícios de FactHiringProcess
 	hiringData := []*ent.FactHiringProcess{
-		{
-			Edges: ent.FactHiringProcessEdges{
-				DimProcess: process1,
-			},
-			MetSumDurationHiringProces: 10,
-		},
-		{
-			Edges: ent.FactHiringProcessEdges{
-				DimProcess: process2,
-			},
-			MetSumDurationHiringProces: 15,
-		},
-		{
-			Edges: ent.FactHiringProcessEdges{
-				DimProcess: process3,
-			},
-			MetSumDurationHiringProces: 20,
-		},
+		{ Edges: ent.FactHiringProcessEdges{ DimProcess: process1 }, MetSumDurationHiringProces: 10 },
+		{ Edges: ent.FactHiringProcessEdges{ DimProcess: process2 }, MetSumDurationHiringProces: 15 },
+		{ Edges: ent.FactHiringProcessEdges{ DimProcess: process3 }, MetSumDurationHiringProces: 20 },
 	}
 
-	// Chama a função ComputingCardInfo com os dados de teste
 	cardInfos, err := ComputingCardInfo(hiringData)
 
-	// Verifica se não houve erro
 	assert.NoError(t, err)
-
-	// Verifica os valores retornados
 	assert.Equal(t, 1, cardInfos.openProcess)
 	assert.Equal(t, 1, cardInfos.expirededProcess)
 	assert.Equal(t, 1, cardInfos.closeProcess)
@@ -726,53 +776,83 @@ func TestComputingCardInfo(t *testing.T) {
 	assert.Equal(t, 15, cardInfos.averageHiringTime)
 }
 ```
+</details>
 
-<h2> Lições Aprendidas </h2>
+### Lições Aprendidas
+Este projeto foi marcante por me apresentar a um novo ecossistema de desenvolvimento, com a linguagem Go (Golang) e a biblioteca Ent ORM.
 
-<p> Foi interessante aprender com uma nova linguagem, novas tecnologias e trabalhar com testes unitários e testes de integração. Uma grande novidade para mim nesse projeto foi devops. Nesse quesito fiquei responsável pela organização das documentações do projeto </p>
-<p> Tive a oportunidade de trabalhar novamente como Scrum Master, mas dessa vez com um nível mais avançado de maturidade.  </p>
-<p> Enfrentar dificuldades foi uma parte crucial do processo. Houve momentos em que tivemos que lidar com bugs complexos e desafios de integração, mas isso nos ajudou a crescer como equipe e a melhorar nossas habilidades técnicas. Aprendi a importância de manter a calma e a persistência diante dos obstáculos, e como a colaboração e a comunicação eficaz podem levar a soluções inovadoras. </p>
+Também foi minha introdução ao mundo DevOps, especialmente em relação à organização e versionamento de documentação técnica e ambientes com Docker.
+
+Além disso, retornei à função de Scrum Master com maior maturidade, ajudando a equipe a manter ritmo, foco e transparência nas entregas.
+
+#### Hard Skills
+- Golang + Ent
+Desenvolvimento back-end com tipagem forte e geração automática de modelos.
+
+- Testes Unitários
+Validação de lógica com cobertura de testes e boas práticas.
+
+- PostgreSQL + Docker Compose
+Configuração de ambientes isolados para desenvolvimento e teste.
+
+- Documentação de banco
+Criação e versionamento da modelagem do banco relacional.
+
+#### Soft Skills
+- Resiliência e Adaptabilidade
+Enfrentei desafios técnicos (bugs e integrações) com persistência e foco em soluções.
+
+- Liderança Técnica como Scrum Master
+Apoiei a equipe com foco em agilidade e organização.
+
+- Trabalho Colaborativo
+Coordenei revisões de documentação e integração entre as partes do sistema.
 
 
 ---
 
-<h2 id = "o-projeto6" align="center"> Previsão  </h2>
-<h4> 6º semestre • 2022 • <a href="https://github.com/projetoKhali/api6/blob/main/README.md">Repositório Github</a><h4>
-<p>Parceiro Acadêmico: <a href = "https://www.pro4tech.com.br/">PRO4TEC</a></p>
+## Projeto 6 - Sistema Inteligente de Planejamento e Monitoramento de Reflorestamento
 
-<h3 id = "solucao6"> Prévia da solução </h2>
+**6º semestre • 2022**
+[Repositório GitHub](https://github.com/projetoKhali/api6/blob/main/README.md)  
+**Parceiro Acadêmico:** [Kersys](https://www.kersys.com.br/)
 
-<p> Análise e previsão de plantio </p>
+### Prévia da Solução
 
-<p> Nossa proposta é a criação de uma aplicação web inteligente para monitoramento e gestão de plantios, permitindo que administradores e consultores acompanhem métricas essenciais, realizem análises de produtividade e gerenciem eventos do plantio de forma eficiente. </p>
+#### Prévia da solução
 
-<p> A plataforma visa integrar dados de diferentes fontes, aplicar inteligência artificial para previsões de produtividade e fornecer insights estratégicos para otimização do cultivo. </p>
+Análise e previsão de plantio
+
+Nossa proposta é a criação de uma aplicação web inteligente para monitoramento e gestão de plantios, permitindo que administradores e consultores acompanhem métricas essenciais, realizem análises de produtividade e gerenciem eventos do plantio de forma eficiente.
+
+A plataforma visa integrar dados de diferentes fontes, aplicar inteligência artificial para previsões de produtividade e fornecer insights estratégicos para otimização do cultivo.
 
 
-<h3 id = "tecnologias6">Tecnologias utilizadas</h3>
+### Tecnologias utilizadas
 
 #### Back-End
 >* [Python](https://www.python.org/).
 >* [Docker](https://www.docker.com/) com [Docker Compose](https://docs.docker.com/compose/).
 >* [PostgreSQL 15](https://www.postgresql.org/).
 >* [MongoDB](https://www.mongodb.com/).
-<br>
 
 #### Front-End
 > * [React](https://react.dev/).
 > * [Typescript](https://www.typescriptlang.org)
-<br>
 
-<h2> Contribuições Pessoais </h2>
+### Contribuições Pessoais
 
-<h3> Banco de dados </h3>
-<p> Criação e Documentação do banco de dados</p>
-<p> Fui responsável pela publicação, documentação e esquematização do banco de dados.</p>
-<p> Para isso utilziamos a ferramenta Vertabelo para auxiliar o processo de doucmentação. Na mesma ferramenta fizemos o DER que guiou o desenvolvimento durante o projeto em partes envolvendo banco de dados</p>
+#### Criptografia de Senhas
+- Criação e Documentação do banco de dados
 
-<h3> Notificação </h3>
-<p> Fui responsável pela criação o app de notificações, um requisito importante para o projeto que cujo papel é enviar notificação para os usuários do sistema atravéz de alguns filtros</p>
-<p> Este é o arquivo de configuração usado no app de notificação</p>
+Fui responsável pela publicação, documentação e esquematização do banco de dados.
+
+Para isso utilziamos a ferramenta Vertabelo para auxiliar o processo de doucmentação. Na mesma ferramenta fizemos o DER que guiou o desenvolvimento durante o projeto em partes envolvendo banco de dados
+
+#### Notificação
+<details> <summary>Notificação de usuários</summary>
+Fui responsável pela criação o app de notificações, um requisito importante para o projeto que cujo papel é enviar notificação para os usuários do sistema atravéz de alguns filtros
+Este é o arquivo de configuração usado no app de notificação
 
 ```yaml
 filters:
@@ -798,15 +878,15 @@ smtp:
   user: 'host@email.com'
   password: 'app_password'
 ```
+</details>
 
-<h3> Backup </h3>
-<p> A LGPD foi outro requisito a ser cumprido, com isso vem a responsabilidade de garantir que os dados dos usuários fiquem seguros enquanto estão sob o domínio da empresa e que os mesmos nunca retornem em caso de exclusão do usuário </p>
-<p>  </p>
+#### Backup
+<details> <summary>Backup conforme LGPD</summary>
+A LGPD foi outro requisito a ser cumprido, com isso vem a responsabilidade de garantir que os dados dos usuários fiquem seguros enquanto estão sob o domínio da empresa e que os mesmos nunca retornem em caso de exclusão do usuário
 
 ```python
 
 def create_backup(bkp_file_name="backup_users_permissions_"):
-    # Garante que a pasta local existe
     os.makedirs(BACKUP_DIR, exist_ok=True)
 
     file_name = generate_file_name(bkp_file_name)
@@ -836,8 +916,29 @@ def create_backup(bkp_file_name="backup_users_permissions_"):
         print(f"❌ Erro durante processo de backup: {e}")
 ```
 
-<h2> Lições Aprendidas </h2>
+### Lições Aprendidas
+Este projeto foi essencial para meu aprofundamento com Python no desenvolvimento back-end, especialmente em aplicações que lidam com manipulação de dados e integração entre múltiplas fontes (PostgreSQL e MongoDB).
 
-<p> Foi interessante aprender com uma nova linguagem, novas tecnologias e trabalhar com testes unitários e testes de integração. Uma grande novidade para mim nesse projeto foi devops. Nesse quesito fiquei responsável pela organização das documentações do projeto </p>
-<p> Tive a oportunidade de trabalhar novamente como Scrum Master, mas dessa vez com um nível mais avançado de maturidade.  </p>
-<p> Enfrentar dificuldades foi uma parte crucial do processo. Houve momentos em que tivemos que lidar com bugs complexos e desafios de integração, mas isso nos ajudou a crescer como equipe e a melhorar nossas habilidades técnicas. Aprendi a importância de manter a calma e a persistência diante dos obstáculos, e como a colaboração e a comunicação eficaz podem levar a soluções inovadoras. </p>
+Foi também uma das primeiras vezes em que lidei diretamente com temas relacionados à LGPD, como backup seguro e notificações segmentadas. Isso me ajudou a entender melhor as responsabilidades envolvidas no armazenamento e tratamento de dados sensíveis.
+
+Aprendi também a construir aplicações auxiliares (como o sistema de notificações), separadas da aplicação principal, seguindo o modelo de microsserviços.
+
+#### Hard Skills
+- Python + PostgreSQL + MongoDB
+Integração entre bancos relacionais e não relacionais, com foco em performance e organização.
+
+- Docker + Docker Compose
+Criação de ambientes isolados e consistentes para desenvolvimento, com múltiplos containers (banco, app e serviços auxiliares).
+
+- Manipulação de Arquivos e Scripts Shell
+Automatização de backups e extração de dados com segurança e robustez.
+
+- Arquitetura de Microsserviços
+Separação de responsabilidades e criação de serviços independentes, como o de notificação.
+
+#### Soft Skills
+- Autonomia Técnica
+Lidei com partes críticas do sistema com independência, como configurações sensíveis e scripts de backup.
+
+- Organização e Atenção a Requisitos Legais
+Compreensão prática da LGPD e seus impactos no desenvolvimento de software.
