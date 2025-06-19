@@ -10,7 +10,7 @@ Minha experiência acadêmica tem sido marcada por projetos práticos e colabora
 
 <div align="center">•
     <a href="https://github.com/JhonatanLop/JhonatanLop"> Github </a> •
-    <a href="www.linkedin.com/in/jhonatan-o-lopes"> Linkedin </a>•
+    <a href="https://linkedin.com/in/jhonatan-o-lopes"> Linkedin </a>•
 </div>
 
 ---
