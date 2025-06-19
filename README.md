@@ -44,19 +44,16 @@ Como foi minha primeira vez atuando como *Scrum Master* e trabalhando com Python
 
 #### Hard Skills
 
-- Lógica de Programação<br>
-  Reaprendi a lógica de programação, essencial após um longo tempo sem programar.
-
 - Metodologias Ágeis<br>
-  Foi meu primeiro contato com metodologias ágeis, especialmente com Scrum.
+  Foi meu primeiro contato com metodologias ágeis e entendo os passos do scrum, aplicar isso pela primeira vez foi muito bom, mesmo que não perfeito.
 
 #### Soft Skills
 
 - Trabalho em Equipe<br>
-  Vivenciei pela primeira vez o desenvolvimento de um projeto em equipe.
+  Pela primeira vez tive que aprender como trabalhar em uma equipe de desenvolvimento. Foi um desafio coordenar as entregas com os outros membros e manter um padrão de código.
 
 - Liderança e Gestão de Equipe<br>
-  Atuei como *Scrum Master*, aprendendo na prática como guiar e organizar o time.
+  Atuei como *Scrum Master*, aprendendo na prática como guiar e organizar o time. Como uma pessoa tímida foi muito difícil sair da minha zona de conforto para assumir esse tipo de papél no time.
 
 ---
 
@@ -254,20 +251,17 @@ Este foi o primeiro projeto em que atuei exclusivamente como desenvolvedor, o qu
 
 #### Hard Skills
 - Java & OOP:<br>
-Primeiro projeto utilizando Java e programação orientada a objetos. Aprendi desde a sintaxe da linguagem até padrões básicos de projeto e boas práticas.
+Primeiro projeto utilizando Java e programação orientada a objetos. Aprendi desde a sintaxe da linguagem até padrões básicos de projeto e boas práticas. Também tive contato com o framework JavaFX para desenvolvimento desktop.
 
 - Modelagem de Banco de Dados:<br>
-Responsável por toda a estruturação do banco relacional. Aprofundei conhecimentos em normalização, integridade referencial e design de tabelas.
+Fui responsável por toda a estruturação do banco relacional. Aprofundei conhecimentos em normalização, integridade referencial e design de tabelas.
 
 - Docker & PostgreSQL:<br>
-Montei o ambiente de banco com contêineres, criando um fluxo de desenvolvimento que simulava produção localmente.
+Aprendi a utilizar docker, nesse projetos utilizamos o banco de dados postgres em conteiner usando docker-compose.
 
 ### Softskills
 - Trabalho em Equipe e Comunicação:<br>
-Melhorei minha comunicação com o time, aprendendo a reportar status, esclarecer dúvidas e contribuir com sugestões.
-
-- Organização e Planejamento:<br>
-Desenvolvi disciplina para organizar minhas tarefas e entregas. Criei rotinas de revisão, controle de tempo e priorização de atividades.
+Sainda de um papel de liderança para apenas ser um desenvolvidor melhorei minha comunicação com os colegas, comecei a reportar status, esclarecer dúvidas e contribuir com sugestões, já que meu foco nesse projeto foi o desenvolvimento.
 
 ---
 
@@ -418,18 +412,9 @@ Este projeto foi uma grande virada no meu desenvolvimento profissional. Pela pri
 - Spring Boot<br>
 Aprofundei meu conhecimento no ecossistema Spring ao acompanhar a criação de APIs RESTful com autenticação, segurança e integração com banco de dados.
 
-- DBA & Modelagem de Dados<br>
-Acompanhei e validei as estruturas do banco com foco em coerência, performance e integridade.
-
 #### Soft Skills
 - Gerenciamento de Pessoas e Tarefas<br>
-Organizei o backlog, defini prioridades com base no feedback do cliente e garanti o foco do time nos itens de maior valor.
-
-- Comunicação Estratégica<br>
-Estabeleci ponte entre cliente e equipe técnica, traduzindo demandas em requisitos técnicos claros.
-
-- Visão de Produto<br>
-Aprendi a tomar decisões equilibrando valor de negócio, esforço de desenvolvimento e usabilidade.
+Como minha primeira vez como PO tive que aprender a criar e organizei um backlog, defini prioridades com base no feedback do cliente e garantir o foco do time nos itens de maior valor.
 
 ---
 
@@ -586,24 +571,12 @@ public class ProjectController {
 Este projeto consolidou muitos dos aprendizados dos projetos anteriores e me permitiu explorar mais o ecossistema Spring Boot com foco em APIs REST, segurança e documentação técnica.
 
 #### Hard Skills
-- Spring Boot (REST APIs)<br>
-Implementação de controllers, serviços e integrações seguras.
-
 - Swagger<br>
 Integração de documentação automática dos endpoints REST.
 
-- PostgreSQL + Docker<br>
-Experiência com persistência de dados e uso de containers para ambiente de desenvolvimento.
-
-#### Soft Skill
-- Comunicação Técnica<br>
-Contribuí com clareza na documentação e entendimento dos endpoints.
-
+#### Soft Skills
 - Responsabilidade Individual<br>
-Assumi partes inteiras do sistema, mantendo padrão de código e boas práticas.
-
-- Adaptabilidade<br>
-Mesmo com mudanças nos requisitos, consegui adaptar os endpoints para manter a compatibilidade com o front-end.
+Assumi partes críticas do sistema por conta, mantendo padrão de código e boas práticas. Com isso tive um crescimento e melhor confiança para trabalhar em grandes partes do projeto eu mesmo.
 
 ---
 
@@ -733,27 +706,14 @@ Além disso, retornei à função de Scrum Master com maior maturidade, ajudando
 
 #### Hard Skills
 - Golang + Ent<br>
-Desenvolvimento back-end com tipagem forte e geração automática de modelos.
+Aprendi as particularidades da linguagem Go e o framework Ent no back-end com tipagem forte e geração automática de modelos.
 
 - Testes Unitários<br>
-Validação de lógica com cobertura de testes e boas práticas.
-
-- PostgreSQL + Docker Compose<br>
-Configuração de ambientes isolados para desenvolvimento e teste.
-
-- Documentação de banco<br>
-Criação e versionamento da modelagem do banco relacional.
+Nesse projeto comecei a fazer uso de testes unitários para validação de lógica com cobertura de testes, além de ser uma boa prática.
 
 #### Soft Skills
-- Resiliência e Adaptabilidade<br>
-Enfrentei desafios técnicos (bugs e integrações) com persistência e foco em soluções.
-
 - Liderança Técnica como Scrum Master<br>
-Apoiei a equipe com foco em agilidade e organização.
-
-- Trabalho Colaborativo<br>
-Coordenei revisões de documentação e integração entre as partes do sistema.
-
+Retornei à função de SM depois de muito tempo sem a certeza de que conseguiria assumir o papel e dessa vez, com uma qualidade técnica maior. Consegui cumprir o papel de SM deixando um pouco de lado minha função como desenvolvedor. Tomei conta da organização do time, entrega e monitoramento das tarefas e repasse dessas informações com os professores responsáveis.
 
 ---
 
@@ -870,21 +830,12 @@ Foi também uma das primeiras vezes em que lidei diretamente com temas relaciona
 Aprendi também a construir aplicações auxiliares (como o sistema de notificações), separadas da aplicação principal, seguindo o modelo de microsserviços.
 
 #### Hard Skills
-- Python + PostgreSQL + MongoDB
-Integração entre bancos relacionais e não relacionais, com foco em performance e organização.
-
-- Docker + Docker Compose
-Criação de ambientes isolados e consistentes para desenvolvimento, com múltiplos containers (banco, app e serviços auxiliares).
-
-- Manipulação de Arquivos e Scripts Shell
-Automatização de backups e extração de dados com segurança e robustez.
+- MongoDB
+Aprendi a trabalhar com banco de dados não relacional, na criação de coleções (com validador) e manipulação de documentos. Além disso, integrar com minhas tasks em python.
 
 - Arquitetura de Microsserviços
-Separação de responsabilidades e criação de serviços independentes, como o de notificação.
+Separação de responsabilidades e criação de serviços independentes, como o de notificação, backup e restore.
 
 #### Soft Skills
-- Autonomia Técnica
-Lidei com partes críticas do sistema com independência, como configurações sensíveis e scripts de backup.
-
-- Organização e Atenção a Requisitos Legais
-Compreensão prática da LGPD e seus impactos no desenvolvimento de software.
+- Atenção a Requisitos Legais
+Tive que entender e compreender as regras práticas da LGPD e como isso afeta no desenvolvimento de software. A partir disso, todas as soluções desenvolvidas precisariam estar de acordo e foi oque fizemos.
