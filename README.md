@@ -259,7 +259,7 @@ Fui responsável por toda a estruturação do banco relacional. Aprofundei conhe
 - Docker & PostgreSQL:<br>
 Aprendi a utilizar docker, nesse projetos utilizamos o banco de dados postgres em conteiner usando docker-compose.
 
-### Softskills
+### Soft Skills
 - Trabalho em Equipe e Comunicação:<br>
 Sainda de um papel de liderança para apenas ser um desenvolvidor melhorei minha comunicação com os colegas, comecei a reportar status, esclarecer dúvidas e contribuir com sugestões, já que meu foco nesse projeto foi o desenvolvimento.
 
