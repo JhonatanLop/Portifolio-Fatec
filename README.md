@@ -1,8 +1,8 @@
-<h1> Portifólio APIs </h1>
+# Portifólio APIs
 
 Trabalho de Aprendizagem a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos do curso de Banco de Dados 3º Semestre/2022.
 
-<h2 id="sobre-mim"> Sobre mim </h2>
+## Sobre mim
 
 *Sou um desenvolvedor Back-End com foco em Banco de Dados e APIs, atualmente cursando Banco de Dados na FATEC São José dos Campos. Minha trajetória na área começou com minha formação técnica em Informática pela Etec de Jaú, onde tive meu primeiro contato com programação e bancos de dados.
 
@@ -63,8 +63,6 @@ Como foi minha primeira vez atuando como *Scrum Master* e trabalhando com Python
 [Repositório GitHub](https://github.com/projetoKhali/API2Semestre/blob/main/README.md)  
 **Parceiro Acadêmico:** [2RP Net](https://2rpnet.com.br/)
 
----
-
 ### Prévia da Solução
 
 O objetivo do projeto foi desenvolver um sistema para controle de jornada de trabalho dos colaboradores da 2RP Net, com foco na classificação automatizada de horas extras e sobreavisos.
@@ -72,8 +70,6 @@ O objetivo do projeto foi desenvolver um sistema para controle de jornada de tra
 A solução permite que colaboradores registrem seus horários de entrada e saída e classifiquem essas horas, com base em regras de negócio configuradas previamente por administradores. A aplicação também oferece a geração de relatórios e estatísticas sobre o tempo trabalhado.
 
 No back-end, criamos uma lógica que processa os apontamentos enviados pelos usuários, realiza a classificação de acordo com regras específicas, e persiste os dados já tratados no banco de dados PostgreSQL. O sistema também permite exportar relatórios em `.csv`, com a opção de filtrar colunas de acordo com o interesse do usuário.
-
----
 
 ### Tecnologias Utilizadas
 
@@ -299,45 +295,10 @@ Neste projeto, atuei como **Product Owner (PO)**, papel no qual fui responsável
 
 Mesmo como PO, contribuí diretamente com o desenvolvimento back-end em pontos específicos, como segurança, API de projetos e relatórios.
 
-#### Criptografia de Senhas
-
-<details>
-<summary>Código - Criptografia</summary>
-
-```java
-public static String encode(String input) {
-    try {
-        MessageDigest md = MessageDigest.getInstance("MD5");
-
-        byte[] bytes = input.getBytes();
-        byte[] digest = md.digest(bytes);
-
-        StringBuilder sb = new StringBuilder();
-        for (byte b : digest) {
-                sb.append(String.format("%02x", b));
-        }
-
-        return sb.toString();
-    } catch (NoSuchAlgorithmException e) {
-        e.printStackTrace();
-        return null;
-    }
-}
-```java
-@PostMapping
-public User createUser(@RequestBody User user) {    
-    user.setPassword(Cryptography.encode(user.getRegistration()));
-    return userRepository.save(user);
-}
-
-@PostMapping("/login")
-public User login(@RequestBody LoginRequest loginRequest) {
-    return userService.getValidatedUser(loginRequest.getEmail(), Cryptography.encode(loginRequest.getPassword()));
-}
-```
-</details>
-
 #### Extração de Relatórios
+
+A exportação de relatórios foi um requisito no projeto, na aplicação fizemos um relatório customizado de acordo com as necessidades. Nesse relatório é possível escolher quais colunas exportar.
+
 <details>
 <summary>Código - Exportação de Relatório CSV</summary>
 
@@ -378,6 +339,9 @@ try (PrintWriter writer = response.getWriter()) {
 </details>
 
 #### CRUD de Projetos
+
+Fiquei responsável pela criação de alguns controlers dentro do projeto, este foi um deles. Esse controler especificamente lida com o CRUD de Projetos.
+
 <details> <summary>Código - Controller de Projeto</summary>
 
 ```java
@@ -452,127 +416,146 @@ Essa visualização era importante para os gestores acompanharem a evolução do
 
 ### Contribuições Pessoais
 
-Atuei como **desenvolvedor back-end**, focando em segurança, documentação das APIs, extração de dados e funcionalidades CRUD de entidades-chave. Abaixo, listo as principais contribuições com trechos de código:
+Nesse projeto atuei como **desenvolvedor front-end** e **dba**, focando no desenvolvimento de novos componentes mantendo um padrão de estilização. Como DBA, além de modelar as tabelas que iriamos precisar, também fiz uso de views para facilitar a utilização dos dados.
 
-#### Documentação com Swagger e Criptografia
+#### Componentes no front-end
+
+Fiquei responsável pela criação de alguns componentes em vue no nosso front-end, um deles é o card simples de informações
 
 <details>
-<summary>Criptografia de Senhas</summary>
+<summary>Código - Card component</summary>
 
-Implementei criptografia via algoritmo MD5 para proteger as credenciais dos usuários:
-
-```java
-public static String encode(String input) {
-    try {
-        MessageDigest md = MessageDigest.getInstance("MD5");
-
-        byte[] bytes = input.getBytes();
-        byte[] digest = md.digest(bytes);
-
-        StringBuilder sb = new StringBuilder();
-        for (byte b : digest) {
-                sb.append(String.format("%02x", b));
-        }
-
-        return sb.toString();
-    } catch (NoSuchAlgorithmException e) {
-        e.printStackTrace();
-        return null;
-    }
-}
+```html
+<template>
+  <div class="conteiner">
+    <div class="chart">
+      <div
+        v-for="(bar, i) in data"
+        :key="i"
+        class="bar-container"
+        @mouseover="showTooltip(i, $event)"
+        @mouseleave="hideTooltip"
+      >
+        <div class="bar-segment total-bar" :style="getTotalBarStyle(i)"></div>
+        <div
+          v-for="(segment, j) in bar.slice(1)"
+          :key="j"
+          class="bar-segment"
+          :style="getBarStyle(i, j)"
+        ></div>
+      </div>
+    </div>
+    <div class="title">
+      <h2>{{ title }}</h2>
+    </div>
+    <div
+      v-if="tooltip.visible"
+      class="tooltip"
+      :style="{ top: tooltip.y + 'px', left: tooltip.x + 'px' }"
+    >
+      <div><strong>Parceiro:</strong> {{ itens[tooltip.index] }}</div>
+      <div><strong>Total:</strong> {{ data[tooltip.index][0] }}</div>
+      <div><strong>Associado:</strong> {{ data[tooltip.index][1] }}</div>
+      <div><strong>Finalizado:</strong> {{ data[tooltip.index][2] }}</div>
+    </div>
+  </div>
+</template>
 ```
-```java
-@PostMapping
-public User createUser(@RequestBody User user) {    
-    user.setPassword(Cryptography.encode(user.getRegistration()));
-    return userRepository.save(user);
-}
 
-@PostMapping("/login")
-public User login(@RequestBody LoginRequest loginRequest) {
-    return userService.getValidatedUser(loginRequest.getEmail(), Cryptography.encode(loginRequest.getPassword()));
-}
-```
-A documentação dos endpoints foi realizada com Swagger, fornecendo exemplos de requisições e respostas para facilitar o uso das APIs.
 </details>
 
-#### Extração de Relatório em CSV
+#### View de métricas da track
+
+Implementei uma view que já realiza a sumarização dos dados da track necessários para o componente `table` no front-end. Optei por utilizar uma view para praticar e aprimorar meus conhecimentos em SQL.
+
 <details>
-<summary>Exportação Customizada</summary>
-Implementei uma funcionalidade de exportação de dados com filtro de colunas configuráveis pelo usuário:
+<summary>Código - View track_metrics</summary>
 
-```java
-try (PrintWriter writer = response.getWriter()) {
-    CSVWriter csvWriter = new CSVWriter(writer);
+```sql
+CREATE OR REPLACE VIEW track_metrics
+    AS select
+    tk.tk_id,
+    tk.tk_name,
+    (expertise_count(tk.tk_id)) AS expertise_count,
 
-    List<String> header = new ArrayList<>();
+    (SELECT qualifier_count(tk.tk_id)) AS qualifier_count,
 
-    for (int i = 0; i < headers.length; i++) { 
-        if (camposBoolean[i]) { 
-            header.add(headers[i]); 
-        }
-    }
+    (SELECT COUNT(pt.pt_id) 
+        FROM Partner_Track AS pt 
+        WHERE pt.tk_id = tk.tk_id
+    ) AS partner_count,
 
-    csvWriter.writeNext(header.toArray(String[]::new));
+    -- tempo médio para completar uma expertise
+    (
+        SELECT ROUND(AVG((pt_ex.pt_ex_complete_date - pt_ex.pt_ex_insert_date)::numeric), 2)
+        FROM Partner_Expertise AS pt_ex
+        JOIN Expertise AS ex ON pt_ex.ex_id = ex.ex_id
+        WHERE ex.tk_id = tk.tk_id
+    ) AS avg_expertise_completion_time,
 
-    List<String> data = new ArrayList<>();
-    for (Appointment apt : allAppointments) {
-        Timestamp total = new Timestamp(apt.getEndDate().getTime() - apt.getStartDate().getTime());
-        if (camposBoolean[1]) data.add(apt.getUser().getRegistration());
-        if (camposBoolean[2]) data.add(apt.getUser().getName());
-        if (camposBoolean[3]) data.add(apt.getStartDate().toString());
-        if (camposBoolean[4]) data.add(apt.getEndDate().toString());
-        if (camposBoolean[5]) data.add(total.toString());
-        if (camposBoolean[6]) data.add(apt.getType().toString());
-        if (camposBoolean[7]) data.add(apt.getResultCenter().getName());
-        if (camposBoolean[8]) data.add(apt.getClient().getName());
-        if (camposBoolean[9]) data.add(apt.getProject().getName());
-        if (camposBoolean[10]) data.add(apt.getJustification());
-
-        csvWriter.writeNext(data.toArray(new String[0]));
-    }
-
-    csvWriter.close();
-}
+    (
+        SELECT ROUND(AVG((pt_ql.pt_ql_complete_date - pt_ql.pt_ql_insert_date)::numeric), 2)
+        FROM Partner_Qualifier AS pt_ql 
+        JOIN Expertise_Qualifier AS ex_ql ON pt_ql.ql_id = ex_ql.ql_id
+        WHERE ex_ql.ex_id IN (
+            SELECT ex_id 
+            FROM Expertise ex 
+            WHERE ex.tk_id = tk.tk_id
+        )
+    ) AS avg_qualifier_completion_time,
+    ...
 ```
 </details>
 
-#### CRUD de Projetos
+#### Componente de gráfico de barra
+
+Um dos componentes essenciais para a visualização das métricas foi o componente de gráfico de barras amontuadas. Por ser um componente simples não precisei fazer o uso de nenhuma biblioteca com um componente pronto, além disso, quis me desenvolver mais como desenvolvedor front-end visto que é a minha primeira vez fora do back-end.
+
 <details>
-<summary>Controller de Projeto</summary>
-Implementei os endpoints REST para cadastro e visualização dos projetos disponíveis no sistema:
+<summary>Código - Stacked Bar Chart</summary>
 
-```java
-@RestController
-@RequestMapping("/projects")
-public class ProjectController {
+Este foi o código de exemplo 
 
-    @Autowired 
-    private ProjectRepository projectRepository;
-
-    public ProjectController(ProjectRepository projectRepository) {
-        this.projectRepository = projectRepository;
+```tsx
+const title = 'Track Shell'
+const itens = ['Marcos', 'Tania', 'Paulo']
+const data = [[22, 10, 5], [22, 13, 8], [22, 9, 8]]
+const height = (() => {
+    const heightList = [];
+    for (let i = 0; i < data.length; i++) {
+        const listAtIndex = [];
+        const dataAtIndex = data[i]!;
+        for (let j = 0; j < dataAtIndex.length; j++) {
+            if (!dataAtIndex || !dataAtIndex[j]) {
+                continue;
+            }
+            const total = dataAtIndex.reduce((a, b) => a + b, 0);
+            const dataAtSegment = dataAtIndex[j];
+            
+            if (!total || !dataAtSegment) {
+                continue;
+            }
+            const segmentHeight = (dataAtSegment / total) * 100;
+            listAtIndex.push(segmentHeight);
+        }
+        heightList.push(listAtIndex);
     }
-
-    @PostMapping
-    public Project createProject(@RequestBody Project project) {
-        return projectRepository.save(project);
-    }
-
-    @GetMapping()
-    public List<Project> getAllProjects(){
-        return projectRepository.findAllActiveProjects();
-    }
-}
+    return heightList;
+})();
 ```
+![alt text](image.png)
+
 </details>
 
 ### Lições Aprendidas
-Este projeto consolidou muitos dos aprendizados dos projetos anteriores e me permitiu explorar mais o ecossistema Spring Boot com foco em APIs REST, segurança e documentação técnica.
+Esse foi meu primeiro projeto trabalhando fora da minha zona de conforto que é o backend, nesse projeto me dediquei exclusivamente ao fronto de end e ao banco de dados. Como primeira vez trabalhando no front end foi um desafio coordenar o comportamento e a reatividades dos componentes fazendo com que toda a interface ficasse uma coisa única e não vários componentes com formatos e estilos distantes.
 
 #### Hard Skills
 - Swagger<br>
 Integração de documentação automática dos endpoints REST.
+
+- React<br>
+Usei React com TS para o desenvolvimento das páginas e dos componentes.
 
 #### Soft Skills
 - Responsabilidade Individual<br>
@@ -623,13 +606,14 @@ A solução desenvolvida foi um **dashboard interativo** capaz de:
 
 #### Lógica de Back-End
 
-<details>
-<summary>Função de Análise de Processos</summary>
-
 Implementei a lógica para alimentar os cards do dashboard com indicadores como:  
 - Total de processos por status (aberto, expirado, encerrado);
 - Processos próximos do prazo final;
 - Tempo médio dos processos seletivos.
+
+<details>
+<summary>Função de Análise de Processos</summary>
+
 
 ```go
 for _, hiring := range hiringData {
@@ -657,9 +641,11 @@ for _, hiring := range hiringData {
 </details>
 
 #### Testes Unitários
+
+Implementei testes unitários para garantir a precisão das métricas apresentadas no dashboard, garantindo que mesmo depois de atualizações no código, a saída deveria continuar sendo a mesma.
+
 <details>
 <summary>Validação dos Cálculos com Testes</summary>
-Implementei testes unitários para garantir a precisão das métricas apresentadas no dashboard.
 
 ```go
 func TestComputingCardInfo(t *testing.T) {
@@ -756,9 +742,12 @@ Fui responsável pela publicação, documentação e esquematização do banco d
 Para isso utilziamos a ferramenta Vertabelo para auxiliar o processo de doucmentação. Na mesma ferramenta fizemos o DER que guiou o desenvolvimento durante o projeto em partes envolvendo banco de dados
 
 #### Notificação
+
+Fui responsável pela criação o app de notificações, um requisito importante para o projeto que cujo papel é enviar notificação para os usuários do sistema atravéz de alguns filtros.
+
 <details> <summary>Notificação de usuários</summary>
-Fui responsável pela criação o app de notificações, um requisito importante para o projeto que cujo papel é enviar notificação para os usuários do sistema atravéz de alguns filtros
-Este é o arquivo de configuração usado no app de notificação
+
+Arquivo de configuração:
 
 ```yaml
 filters:
@@ -787,8 +776,10 @@ smtp:
 </details>
 
 #### Backup
+
+A LGPD foi outro requisito a ser cumprido, com isso vem a responsabilidade de garantir que os dados dos usuários fiquem seguros enquanto estão sob o domínio da empresa e que os mesmos nunca retornem em caso de exclusão do usuário.
+
 <details> <summary>Backup conforme LGPD</summary>
-A LGPD foi outro requisito a ser cumprido, com isso vem a responsabilidade de garantir que os dados dos usuários fiquem seguros enquanto estão sob o domínio da empresa e que os mesmos nunca retornem em caso de exclusão do usuário
 
 ```python
 
