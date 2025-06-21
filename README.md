@@ -269,7 +269,7 @@ Sainda de um papel de liderança para apenas ser um desenvolvidor melhorei minha
 
 ### Prévia da Solução
 
-Este projeto foi uma evolução da solução desenvolvida no semestre anterior, com o objetivo de refinar o controle da jornada de trabalho de colaboradores da 2RP Net. O sistema continuou oferecendo funcionalidades de registro de horários, classificação automática de horas extras e sobreavisos, além da geração de relatórios e estatísticas.
+Este projeto foi uma evolução da solução desenvolvida no semestre anterior, com o objetivo de migrar o software para o ambiente web e refinar o controle da jornada de trabalho de colaboradores da 2RP Net. O sistema continuou oferecendo funcionalidades de registro de horários, classificação automática de horas extras e sobreavisos, além da geração de relatórios e estatísticas.
 
 As APIs de registro de horas se comunicam com uma central de processamento que aplica regras de negócio configuráveis para classificar os registros. Os dados são então persistidos em um banco PostgreSQL.
 
