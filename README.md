@@ -386,11 +386,11 @@ Como minha primeira vez como PO tive que aprender a criar e organizei um backlog
 
 **4º semestre • 2022**  
 [Repositório GitHub](https://github.com/projetoKhali/api4/blob/main/README.md)  
-**Parceiro Acadêmico:** [2RP Net](https://www.oracle.com/partnernetwork/program/)
+**Parceiro Acadêmico:** [Oracle](https://www.oracle.com/partnernetwork/program/)
 
 ### Prévia da Solução
 
-O objetivo do projeto era criar um sistema com **dashboards analíticos interativos** para visualizar o progresso dos parceiros da 2RP Net em trilhas de capacitação. Os dados apresentados envolviam:
+O objetivo do projeto era criar um sistema com **dashboards analíticos interativos** para visualizar o progresso dos parceiros da Oracle em trilhas de capacitação. Os dados apresentados envolviam:
 
 - Progresso individual dos parceiros por track, expertise e qualificador.
 - Tempo médio de conclusão.
