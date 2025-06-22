@@ -579,8 +579,6 @@ A solução desenvolvida foi um **dashboard interativo** capaz de:
 - Identificar prazos que estão se aproximando do fim;
 - Fornecer insights estratégicos para as lideranças.
 
----
-
 ### Tecnologias Utilizadas
 
 #### Back-End
@@ -593,16 +591,12 @@ A solução desenvolvida foi um **dashboard interativo** capaz de:
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org)
 
----
-
 ### Contribuições Pessoais
 
 #### Banco de Dados
 
 - Fui responsável por toda a **documentação e estruturação do banco de dados**, desde o **DER (Diagrama Entidade Relacionamento)** até a publicação.
 - Utilizei a ferramenta **Vertabelo** para projetar e documentar a base, garantindo clareza para a equipe de desenvolvimento e alinhamento com as necessidades da empresa parceira.
-
----
 
 #### Lógica de Back-End
 
