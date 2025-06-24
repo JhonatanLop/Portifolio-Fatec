@@ -1,4 +1,4 @@
-# Portifólio APIs
+# Portfólio APIs
 
 Trabalho de Aprendizagem a partir de Projeto Integrador (APIs), apresentado à Faculdade de Tecnologia de São José dos Campos do curso de Banco de Dados 3º Semestre/2022.
 
